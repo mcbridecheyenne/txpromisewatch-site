@@ -1,0 +1,48 @@
+name: Sync feed from Postiz
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # every 30 minutes
+  workflow_dispatch:          # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-feed
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Postiz CLI
+        run: npm install -g postiz --silent
+
+      - name: Pull approved Facebook posts from Postiz
+        env:
+          POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
+        run: |
+          postiz posts:list > raw.txt
+          # drop any non-JSON header lines before the JSON starts
+          sed -n '/^[[{]/,$p' raw.txt > plist.json
+          python3 sync_feed.py plist.json posts.json
+          rm -f raw.txt plist.json
+
+      - name: Commit if the feed changed
+        run: |
+          if git diff --quiet posts.json; then
+            echo "Feed unchanged."
+          else
+            git config user.name "feed-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add posts.json
+            git commit -m "Sync feed from Postiz"
+            git push
+          fi
