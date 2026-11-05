@@ -6,6 +6,13 @@ src, dst = sys.argv[1], sys.argv[2]
 raw = json.load(open(src)); posts = raw["posts"] if isinstance(raw, dict) else raw
 try: feed = {p["id"]: p for p in json.load(open(dst))}
 except Exception: feed = {}
+# Drop recent entries that are no longer approved in Postiz (deleted or moved back
+# to draft), so a pulled or corrected post doesn't linger on the site.
+# posts:list only covers the last 30 days, so older entries are kept as they are.
+from datetime import datetime, timedelta, timezone
+live = {p["id"] for p in posts if p["integration"]["providerIdentifier"] == "facebook" and p.get("state") in ("QUEUE", "PUBLISHED")}
+cutoff = (datetime.now(timezone.utc) - timedelta(days=29)).isoformat()
+feed = {k: v for k, v in feed.items() if k in live or v["published_at"] < cutoff}
 EMOJI = re.compile("[\U0001F000-\U0001FAFF☀-➿️‍]+")
 for p in posts:
     if p["integration"]["providerIdentifier"] != "facebook": continue
