@@ -68,6 +68,7 @@ footer{border-top:1px solid var(--line);color:var(--dim);font-size:13px;text-ali
     <h1>Texas Promise Watch</h1>
     <p class="tag">Who promised what, and did they keep it? Texas politics explained in plain language, with every promise tracked: kept, broken or in progress.</p>
     <div class="follow">
+      <a href="https://www.facebook.com/122105376081529898" rel="noopener" target="_blank"><svg viewBox="0 0 24 24"><path d="M14 8V6.2c0-.8.2-1.2 1.4-1.2H17V2h-2.6C11.3 2 10 3.5 10 6v2H8v3h2v11h4V11h2.7l.3-3h-3Z"/></svg>Facebook</a>
       <a href="https://x.com/TXPromiseWatch" rel="noopener" target="_blank"><svg viewBox="0 0 24 24"><path d="M18.9 2H22l-7.6 8.7L23 22h-6.8l-5.3-6.9L4.8 22H1.7l8.1-9.3L1 2h7l4.8 6.3L18.9 2Zm-1.2 18h1.7L7.4 3.9H5.6L17.7 20Z"/></svg>X</a>
       <a href="https://www.tiktok.com/@txpromisewatch" rel="noopener" target="_blank"><svg viewBox="0 0 24 24"><path d="M16.6 2h-3.3v13.2a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .9.1V9a6.3 6.3 0 1 0 5.3 6.2V8.4a7.9 7.9 0 0 0 4.4 1.4V6.5a4.5 4.5 0 0 1-4.4-4.5Z"/></svg>TikTok</a>
       <a href="https://www.instagram.com/texas_promise_watch" rel="noopener" target="_blank"><svg viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4ZM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4ZM12 2.2c2.7 0 3 0 4 .1 2.8.1 4.1 1.5 4.2 4.2.1 1 .1 1.4.1 4s0 3-.1 4c-.1 2.7-1.4 4.1-4.2 4.2-1 .1-1.3.1-4 .1s-3 0-4-.1c-2.8-.1-4.1-1.5-4.2-4.2-.1-1-.1-1.4-.1-4s0-3 .1-4C3.9 3.8 5.2 2.4 8 2.3c1-.1 1.3-.1 4-.1Z"/></svg>Instagram</a>
@@ -146,7 +147,17 @@ document.addEventListener("click", async e => {
 document.getElementById("yr").textContent = new Date().getFullYear();
 fetch("posts.json?v=" + Date.now()).then(r => r.json()).then(data => {
   const now = Date.now();
-  all = data.filter(p => Date.parse(p.published_at) <= now).sort((a,b) => Date.parse(b.published_at) - Date.parse(a.published_at));
+  // Each post goes out with a reel at the same time; show them as one card
+  // (keep the version with sources, borrow the reel's video if it has none).
+  const byTime = {};
+  data.filter(p => Date.parse(p.published_at) <= now).forEach(p => {
+    const k = p.published_at, o = byTime[k];
+    if (!o) { byTime[k] = p; return; }
+    const [main, twin] = (p.sources||[]).length > (o.sources||[]).length ? [p, o] : [o, p];
+    byTime[k] = {...main, video_url: main.video_url || twin.video_url, image_url: main.image_url || twin.image_url,
+                 facebook_url: main.facebook_url || twin.facebook_url};
+  });
+  all = Object.values(byTime).sort((a,b) => Date.parse(b.published_at) - Date.parse(a.published_at));
   render();
   if (location.hash){ const t = document.getElementById(location.hash.slice(1));
     if (!t && all.some(p => "#"+p.id===location.hash)) { shown = all.length; render(); }
