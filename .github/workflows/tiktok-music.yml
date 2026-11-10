@@ -1,0 +1,49 @@
+name: Add music to TikTok posts
+
+# The reel MP4s have a silent audio track. This gives every queued or draft
+# TikTok post in Postiz a TikTok Commercial Music Library track before it publishes.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  push:
+    branches: ["fix/tiktok-music"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tiktok-music
+  cancel-in-progress: false
+
+jobs:
+  music:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install Postiz CLI
+        run: npm install -g postiz --silent
+      - name: Add music to TikTok posts that have none
+        env:
+          POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
+        run: |
+          start=$(date -u -d '-1 day' +%Y-%m-%dT%H:%M:%SZ)
+          end=$(date -u -d '+30 days' +%Y-%m-%dT%H:%M:%SZ)
+          postiz posts:list --startDate "$start" --endDate "$end" > raw.txt
+          sed -n '/^[[{]/,$p' raw.txt > plist.json
+          python3 add_tiktok_music.py plist.json > fix.sh
+          echo "TikTok posts needing music: $(grep -c '^postiz' fix.sh || true)"
+          fail=0
+          while IFS= read -r cmd; do
+            out=$(bash -c "$cmd" 2>&1) || { echo "FAILED: $out"; fail=1; continue; }
+            echo "$out" | tail -n 1
+          done < fix.sh
+          # re-check that nothing is still missing music
+          postiz posts:list --startDate "$start" --endDate "$end" > raw.txt
+          sed -n '/^[[{]/,$p' raw.txt > plist.json
+          python3 add_tiktok_music.py plist.json --dry-run 2> left.txt
+          if [ -s left.txt ]; then echo "Still missing music:"; cat left.txt; exit 1; fi
+          exit $fail
