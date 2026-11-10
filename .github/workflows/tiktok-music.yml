@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: "20"
       - name: Install Postiz CLI
-        run: npm install -g postiz --silent
+        run: npm install -g postiz@2.0.27 --silent  # 2.1.0 dropped posts:settings
       - name: Add music to TikTok posts that have none
         env:
           POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
