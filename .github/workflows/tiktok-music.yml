@@ -26,8 +26,6 @@ jobs:
           node-version: "20"
       - name: Install Postiz CLI
         run: npm install -g postiz --silent
-      - name: Show CLI version
-        run: postiz --version 2>&1 | tail -n 2; postiz posts:settings --help 2>&1 | tail -n 15
       - name: Add music to TikTok posts that have none
         env:
           POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
@@ -40,8 +38,8 @@ jobs:
           echo "TikTok posts needing music: $(grep -c '^postiz' fix.sh || true)"
           fail=0
           while IFS= read -r cmd; do
-            out=$(bash -c "$cmd" 2>&1) || { echo "FAILED: $out"; fail=1; continue; }
-            echo "$out" | grep -v DeprecationWarning | grep -v trace-deprecation | tail -n 3
+            if ! bash -c "$cmd" </dev/null > out.txt 2>&1; then fail=1; echo "FAILED:"; fi
+            grep -v 'DeprecationWarning\|trace-deprecation' out.txt | head -n 12
           done < fix.sh
           # re-check that nothing is still missing music
           postiz posts:list --startDate "$start" --endDate "$end" > raw.txt
