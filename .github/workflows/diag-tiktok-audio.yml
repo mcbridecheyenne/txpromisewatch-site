@@ -1,0 +1,34 @@
+name: Diagnose TikTok audio (read-only)
+
+on:
+  push:
+    branches: ["diag/tiktok-audio"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install tools
+        run: |
+          npm install -g postiz --silent
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg jq >/dev/null
+      - name: Inspect TikTok / Instagram posts and their media
+        env:
+          POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
+        run: |
+          postiz integrations:list > ints_raw.txt 2>&1 || true
+          sed -n '/^[[{]/,$p' ints_raw.txt | jq -c '.[] | {id, identifier, name, disabled}' || cat ints_raw.txt
+          postiz posts:list --startDate "2026-10-01T00:00:00Z" --endDate "2026-12-31T23:59:59Z" > raw.txt 2>&1 || true
+          sed -n '/^[[{]/,$p' raw.txt > plist.json
+          python3 diag/inspect.py plist.json
+          for id in $(sed -n '/^[[{]/,$p' ints_raw.txt | jq -r '.[] | select(.identifier|test("tiktok")) | .id'); do
+            echo "== TikTok settings for $id"; postiz integrations:settings "$id" 2>&1 | sed -n '/^[[{]/,$p' | jq '.output | {rules, settings}' || true
+          done
