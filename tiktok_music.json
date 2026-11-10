@@ -1,0 +1,11 @@
+{
+  "_note": "TikTok Commercial Music Library tracks (cleared for business accounts). add_tiktok_music.py rotates through these for any queued or draft TikTok post that has no music. Find more ids with: postiz integrations:trigger <tiktok-id> musicSearch -d '{\"genre\":\"AMBIENT\"}'",
+  "audio_volume": 60,
+  "video_volume": 50,
+  "tracks": [
+    {"id": "7622564116947060752", "title": "Hidden Truth Revealed", "artist": "Adauto Assis"},
+    {"id": "7521888697513396241", "title": "Self Aware", "artist": "Mark Allan Wolfe"},
+    {"id": "7584037896080902145", "title": "Sunset in Girona", "artist": "Noah Preminger & Max Light"},
+    {"id": "6817442798736771073", "title": "Background, ambient", "artist": "Kirill Kharchenko"}
+  ]
+}
