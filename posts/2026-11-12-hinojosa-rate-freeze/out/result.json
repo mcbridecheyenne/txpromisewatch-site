@@ -1,0 +1,50 @@
+[
+ {
+  "id": "cmwbleygc01e5qq07uhygutd2",
+  "platform": "x",
+  "state": "QUEUE",
+  "publishDate": "2026-11-12T17:00:00.000Z",
+  "settings": {
+   "post_type": "post",
+   "who_can_reply_post": "everyone",
+   "__type": "x"
+  }
+ },
+ {
+  "id": "cmwbleyrf01glrw08ine5ro1y",
+  "platform": "tiktok-business",
+  "state": "QUEUE",
+  "publishDate": "2026-11-12T17:00:00.000Z",
+  "settings": {
+   "title": "Hinojosa promised to freeze your electric rate. Can she?",
+   "privacy_level": "PUBLIC_TO_EVERYONE",
+   "duet": false,
+   "stitch": false,
+   "comment": true,
+   "autoAddMusic": "no",
+   "brand_content_toggle": false,
+   "brand_organic_toggle": false,
+   "video_made_with_ai": false,
+   "content_posting_method": "DIRECT_POST",
+   "music": {
+    "id": "7521888697513396241",
+    "title": "Self Aware",
+    "artist": "Mark Allan Wolfe",
+    "audio_volume": 60,
+    "video_volume": 50
+   },
+   "__type": "tiktok-business"
+  }
+ },
+ {
+  "id": "cmwbleya701girw081d47crsu",
+  "platform": "facebook",
+  "state": "QUEUE",
+  "publishDate": "2026-11-12T17:00:00.000Z",
+  "settings": {
+   "post_type": "post",
+   "title": "Hinojosa promised to freeze your electric rate. Can she?",
+   "__type": "facebook"
+  }
+ }
+]

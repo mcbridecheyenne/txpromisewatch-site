@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": "cmwbleygc01e5qq07uhygutd2",
+      "content": "Will it change what you pay? Gov.-elect Hinojosa promises a \"high-cost emergency\" and a freeze on home power rates within an hour of taking office Jan. 19. Texas homes paid 15.91¢/kWh in Aug. vs 18.16¢ U.S. (EIA). Open question: how a freeze works in a competitive market. #txlege",
+      "publishDate": "2026-11-12T17:00:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "f2dbeee7-05b3-41d0-b61f-113c92c9b7ea",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"who_can_reply_post\":\"everyone\",\"__type\":\"x\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1pgg8k0drqla078ivel5jr",
+        "providerIdentifier": "x",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/D9frMDkodN.jpg"
+      }
+    },
+    {
+      "id": "cmwbleyrf01glrw08ine5ro1y",
+      "content": "Texas Gov.-elect Gina Hinojosa promised to freeze residential electricity rates on Day One. She told the Texas Tribune she'd declare a \"high-cost emergency\" within an hour of taking office Jan. 19, then have the state freeze home rates until data centers and other big users pay their own way. Texas homes paid 15.91 cents per kWh in August vs. 18.16 cents nationally (U.S. EIA). Supporters say families need relief now. Critics say price caps in a competitive market could discourage new power plants and end up in court. Promise status: not started. Sources: Texas Tribune via Fox News and Energy Choice Matters, U.S. EIA.\n\nMore on Facebook (Texas Promise Watch), Instagram (@texas_promise_watch), X (@TXPromiseWatch) and TXPromiseWatch.com\n#TexasPromiseWatch #txlege #texaspolitics #texas",
+      "publishDate": "2026-11-12T17:00:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "acd146ec-49b8-4d03-bffc-417c832162da",
+      "creationMethod": "CLI",
+      "settings": "{\"title\":\"Hinojosa promised to freeze your electric rate. Can she?\",\"privacy_level\":\"PUBLIC_TO_EVERYONE\",\"duet\":false,\"stitch\":false,\"comment\":true,\"autoAddMusic\":\"no\",\"brand_content_toggle\":false,\"brand_organic_toggle\":false,\"video_made_with_ai\":false,\"content_posting_method\":\"DIRECT_POST\",\"music\":{\"id\":\"7521888697513396241\",\"title\":\"Self Aware\",\"artist\":\"Mark Allan Wolfe\",\"audio_volume\":60,\"video_volume\":50},\"__type\":\"tiktok-business\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw21kbr201nrl808vqs2hovq",
+        "providerIdentifier": "tiktok-business",
+        "name": "TXPromiseWatch",
+        "picture": "https://uploads.postiz.com/QCnBtZ6Ray.jpg"
+      }
+    },
+    {
+      "id": "cmwbleya701girw081d47crsu",
+      "content": "Will it change what you pay? Hinojosa's promise to freeze home electricity rates\n\nOn the campaign trail, Gov.-elect Gina Hinojosa (D) promised: \"On Day One as governor, I'll freeze residential electricity rates and make corporations finally pay their fair share.\"\n\nWhat she says she'll do:\n• Declare a \"high-cost emergency\" within an hour of taking the oath on Jan. 19, she told the Texas Tribune. She said the same order would also suspend the state gas and diesel tax.\n• Have the Public Utility Commission freeze residential rates until new laws make data centers and other high-load users pay for their own power.\n\nWhere prices stand: the average Texas home paid 15.91 cents per kilowatt-hour in August 2026, up from 15.40 cents a year earlier. The U.S. average was 18.16 cents. (U.S. EIA)\n\nThe open questions: Most Texans buy power from competing retail providers whose prices the state doesn't set, so how a freeze would work isn't clear yet. Lasting changes would need the Legislature, and Republicans still hold the Texas Senate.\n\nHow each side sees it:\nSupporters say data centers are pushing up household bills and families need relief now.\nCritics, including Nick Loris of the conservative group C3 Solutions in a Fox News story, say capping prices in a competitive market could discourage new power supply and will likely be challenged in court.\n\nPromise status: not started. She takes office Jan. 19, 2027, and we'll track whether the freeze happens and holds up.\n\nShould a governor be able to freeze electricity rates? Tell us below.\n\nSources in the first comment.\n#TexasPromiseWatch #txlege #texaspolitics #ERCOT",
+      "publishDate": "2026-11-12T17:00:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "16095b26-054f-4a77-a5e3-94ecf9b044c8",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"title\":\"Hinojosa promised to freeze your electric rate. Can she?\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    }
+  ]
+}
