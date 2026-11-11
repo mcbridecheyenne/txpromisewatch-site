@@ -1,0 +1,44 @@
+name: One-off post
+
+# Runs posts/<name>/run.sh for a hand-made post pushed on a post/** branch.
+# Each post folder holds a "stage" file: build (make media, show queue) or publish (schedule in Postiz).
+on:
+  push:
+    branches: ["post/**"]
+    paths: ["posts/**/stage"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: one-off-post-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Tools
+        run: |
+          npm install -g postiz@2.0.27 --silent
+          pip install --quiet pillow
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+      - name: Run changed post folders
+        env:
+          POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
+        run: |
+          for f in $(git diff --name-only HEAD~1 HEAD -- 'posts/**/stage'); do
+            echo "::group::$f"; bash "$(dirname "$f")/run.sh"; echo "::endgroup::"
+          done
+      - name: Commit outputs
+        run: |
+          git config user.name "post-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add posts
+          git diff --cached --quiet || { git commit -m "Post outputs"; git push; }
