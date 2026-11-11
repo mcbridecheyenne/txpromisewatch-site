@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": "cmwbujqz0009mr007f358dq8r",
+      "content": "Abbott held steady. Democrats added 1.7 million votes.\n\nTexas governor votes:\n2018: Abbott 4.66M, Valdez 3.55M\n2022: Abbott 4.44M, O'Rourke 3.55M\n2026 (unofficial): Hinojosa 5.23M (52.8%), Abbott 4.52M (45.7%)\n\nOfficial after the Legislature canvasses in January. #txlege",
+      "publishDate": "2026-11-13T17:00:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "ab4ce649-3f50-4d04-8bdd-081f188a6db0",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"who_can_reply_post\":\"everyone\",\"__type\":\"x\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1pgg8k0drqla078ivel5jr",
+        "providerIdentifier": "x",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/D9frMDkodN.jpg"
+      }
+    },
+    {
+      "id": "cmwbujrct009nr007h59ogj19",
+      "content": "Abbott's vote total for Texas governor barely moved: 4.66M in 2018, 4.44M in 2022, 4.52M in 2026. The Democratic total jumped about 1.7 million, from 3.55M in 2022 to 5.23M for Gina Hinojosa in 2026. 2026 numbers are an unofficial AP count. The governor's race becomes official after the Legislature canvasses the returns in January. This shows vote totals only, not why they changed. What stands out to you? Sources: Texas Secretary of State (2018, 2022), AP via KSAT and Ballotpedia (2026).\n\nMore on Facebook (Texas Promise Watch), Instagram (@texas_promise_watch), X (@TXPromiseWatch) and TXPromiseWatch.com\n#TexasPromiseWatch #txlege #texaspolitics #texas",
+      "publishDate": "2026-11-13T17:00:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "213baaa0-03ff-40e2-9d2a-62d33d6bfa50",
+      "creationMethod": "CLI",
+      "settings": "{\"title\":\"Abbott held steady. Democrats added 1.7 million votes.\",\"privacy_level\":\"PUBLIC_TO_EVERYONE\",\"duet\":false,\"stitch\":false,\"comment\":true,\"autoAddMusic\":\"no\",\"brand_content_toggle\":false,\"brand_organic_toggle\":false,\"video_made_with_ai\":false,\"content_posting_method\":\"DIRECT_POST\",\"music\":{\"id\":\"7622564116947060752\",\"title\":\"Hidden Truth Revealed\",\"artist\":\"Adauto Assis\",\"audio_volume\":60,\"video_volume\":50},\"__type\":\"tiktok-business\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw21kbr201nrl808vqs2hovq",
+        "providerIdentifier": "tiktok-business",
+        "name": "TXPromiseWatch",
+        "picture": "https://uploads.postiz.com/QCnBtZ6Ray.jpg"
+      }
+    },
+    {
+      "id": "cmwbujqqn009kr0078lmmjltm",
+      "content": "Abbott held steady. Democrats added 1.7 million votes.\n\nGreg Abbott's vote total for governor barely moved across the last three elections. The Democratic total jumped by about 1.7 million from 2022 to 2026.\n\nVotes for Texas governor:\n• 2018: Abbott (R) 4,656,196. Valdez (D) 3,546,615.\n• 2022: Abbott (R) 4,437,099. O'Rourke (D) 3,553,656.\n• 2026 (unofficial AP count): Hinojosa (D) 5,230,929 (52.8%). Abbott (R) 4,524,955 (45.7%).\n\nFrom 2022 to 2026, Abbott gained about 88,000 votes (+2%). The Democratic nominee gained about 1.68 million (+47%). All votes cast for governor rose from 8.10 million to about 9.90 million.\n\nThese 2026 numbers are unofficial. In Texas, the governor's race becomes official only after the Legislature canvasses the returns, and it meets Jan. 12, 2027. Counts can still shift a little before then.\n\nThis chart shows vote totals only. It doesn't tell us why they changed.\n\nWhat stands out to you? Tell us below.\n\nSources in the first comment.\n#TexasPromiseWatch #txlege #texaspolitics #TexasElection",
+      "publishDate": "2026-11-13T17:00:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "f3b57357-9653-461a-9367-d815a6148eab",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"title\":\"Abbott held steady. Democrats added 1.7 million votes.\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    }
+  ]
+}

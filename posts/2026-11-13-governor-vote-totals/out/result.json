@@ -1,0 +1,50 @@
+[
+ {
+  "id": "cmwbujqz0009mr007f358dq8r",
+  "platform": "x",
+  "state": "QUEUE",
+  "publishDate": "2026-11-13T17:00:00.000Z",
+  "settings": {
+   "post_type": "post",
+   "who_can_reply_post": "everyone",
+   "__type": "x"
+  }
+ },
+ {
+  "id": "cmwbujrct009nr007h59ogj19",
+  "platform": "tiktok-business",
+  "state": "QUEUE",
+  "publishDate": "2026-11-13T17:00:00.000Z",
+  "settings": {
+   "title": "Abbott held steady. Democrats added 1.7 million votes.",
+   "privacy_level": "PUBLIC_TO_EVERYONE",
+   "duet": false,
+   "stitch": false,
+   "comment": true,
+   "autoAddMusic": "no",
+   "brand_content_toggle": false,
+   "brand_organic_toggle": false,
+   "video_made_with_ai": false,
+   "content_posting_method": "DIRECT_POST",
+   "music": {
+    "id": "7622564116947060752",
+    "title": "Hidden Truth Revealed",
+    "artist": "Adauto Assis",
+    "audio_volume": 60,
+    "video_volume": 50
+   },
+   "__type": "tiktok-business"
+  }
+ },
+ {
+  "id": "cmwbujqqn009kr0078lmmjltm",
+  "platform": "facebook",
+  "state": "QUEUE",
+  "publishDate": "2026-11-13T17:00:00.000Z",
+  "settings": {
+   "post_type": "post",
+   "title": "Abbott held steady. Democrats added 1.7 million votes.",
+   "__type": "facebook"
+  }
+ }
+]
