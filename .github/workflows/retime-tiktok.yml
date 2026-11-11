@@ -25,6 +25,8 @@ jobs:
           tt=[x for x in p if 'tiktok' in x['integration']['providerIdentifier'] and x.get('state') in ('DRAFT','QUEUE')]
           json.dump(tt,open('tiktok.json','w'),indent=1)
           print(len(tt))
+          print(json.dumps(tt[0])[:4000])
+          for x in tt: print('POST',x['id'],x['state'],x['publishDate'],str(x.get('image'))[:300])
           P
           sudo apt-get -qq install -y ffmpeg >/dev/null
           python3 - <<'P'
