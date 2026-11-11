@@ -1,7 +1,8 @@
 """Build reel scenes (1080x1920) from the Canva graphic, then the MP4s.
 Usage: python3 make_reel.py graphic.png endcard.png outdir
-Each picture holds 7 s (the old 4 s plus 3 s, per Cheyenne 2026-11-11). The TikTok cut adds the
-social-handles end card. Facebook reel gets a soft generated ambient pad (original, royalty-free);
+No zoom or pan, and every scene's content sits inside the safe box (70 px left, 140 px right,
+150 px top, 380 px bottom clear) so no words are cut off or hidden under app buttons (Cheyenne 2026-11-11).
+Facebook holds each picture 5.5 s; TikTok holds it 3 s longer (8.5 s) and adds the social-handles end card. Facebook reel gets a soft generated ambient pad (original, royalty-free);
 the TikTok cut stays silent so its TikTok Commercial Music Library track is the only music."""
 import subprocess, sys
 from PIL import Image
@@ -9,22 +10,33 @@ g_path, end_path, out = sys.argv[1:4]
 G = Image.open(g_path).convert("RGB").resize((1080, 1440))
 bg = G.getpixel((8, 8))
 W, H = 1080, 1920
+SAFE = (70, 150, W - 140, H - 380)  # left, top, right, bottom
+SW, SH = SAFE[2] - SAFE[0], SAFE[3] - SAFE[1]
 def canvas(): return Image.new("RGB", (W, H), bg)
+def fit(parts, gap=40):
+    """Stack image parts vertically, scale the stack to fit the safe box, center it there."""
+    tw = max(p.width for p in parts); th = sum(p.height for p in parts) + gap * (len(parts) - 1)
+    stack = Image.new("RGB", (tw, th), bg); y = 0
+    for p in parts: stack.paste(p, ((tw - p.width) // 2, y)); y += p.height + gap
+    k = min(SW / tw, SH / th); stack = stack.resize((round(tw * k), round(th * k)), Image.LANCZOS)
+    c = canvas(); c.paste(stack, (SAFE[0] + (SW - stack.width) // 2, SAFE[1] + (SH - stack.height) // 2)); return c
 # Scene 1: headline + callout (the hook)
-s1 = canvas(); s1.paste(G.crop((0, 0, 1080, 410)), (0, 330)); s1.paste(G.crop((0, 1100, 1080, 1350)), (0, 900))
-# Scene 2: the bill rows, slightly enlarged
-rows = G.crop((20, 425, 1060, 1055)); rows = rows.resize((1080, round(rows.height * 1080 / rows.width)))
-s2 = canvas(); s2.paste(G.crop((0, 0, 1080, 105)), (0, 330)); s2.paste(rows, (0, (H - rows.height) // 2))
+s1 = fit([G.crop((0, 0, 1080, 410)), G.crop((0, 1100, 1080, 1350))], gap=120)
+# Scene 2: kicker + the bill rows
+s2 = fit([G.crop((0, 20, 1080, 100)), G.crop((0, 425, 1080, 1055))], gap=60)
 # Scene 3: the full graphic with source line
-s3 = canvas(); s3.paste(G, (0, (H - 1440) // 2))
+s3 = fit([G])
 scenes = []
 for i, s in enumerate([s1, s2, s3], 1):
     p = f"{out}/scene{i}.png"; s.save(p); scenes.append(p)
 E = Image.open(end_path).convert("RGB")
 if E.size != (W, H):
     e = Image.new("RGB", (W, H), (5, 21, 41)); E.thumbnail((W, H)); e.paste(E, ((W - E.width) // 2, 120)); E = e
+# the stock end card runs edge to edge; shrink its content into the safe box too
+bg_end = E.getpixel((8, 8)); E = E.crop((0, 120, W, 1530))
+_bg = bg; bg = bg_end; E = fit([E]); bg = _bg
 E.save(f"{out}/endcard.png")
-HOLD = 7.0; END_HOLD = 6.0; FADE = 0.4
+FB_HOLD = 5.5; TT_HOLD = FB_HOLD + 3; END_HOLD = 6.0; FADE = 0.4
 def build(imgs, holds, dst, audio):
     cmd = ["ffmpeg", "-y", "-loglevel", "error"]
     for im, d in zip(imgs, holds): cmd += ["-loop", "1", "-t", str(d), "-framerate", "30", "-i", im]
@@ -44,6 +56,6 @@ def build(imgs, holds, dst, audio):
             "-crf", "20", "-pix_fmt", "yuv420p", "-r", "30", "-c:a", "aac", "-b:a", "128k", "-shortest",
             "-movflags", "+faststart", dst]
     subprocess.run(cmd, check=True)
-build(scenes, [HOLD] * 3, f"{out}/reel_facebook.mp4", audio=True)
-build(scenes + [f"{out}/endcard.png"], [HOLD] * 3 + [END_HOLD], f"{out}/reel_tiktok.mp4", audio=False)
+build(scenes, [FB_HOLD] * 3, f"{out}/reel_facebook.mp4", audio=True)
+build(scenes + [f"{out}/endcard.png"], [TT_HOLD] * 3 + [END_HOLD], f"{out}/reel_tiktok.mp4", audio=False)
 print("built", out)

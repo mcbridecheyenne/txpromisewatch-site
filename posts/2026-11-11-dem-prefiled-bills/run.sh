@@ -23,6 +23,36 @@ for i in json.load(open('out/integrations.json')):
     print(i['id'], i.get('identifier'), i.get('name'), i.get('profile'), i.get('disabled'))
 PY
   cat out/queue.txt
+elif [ "$STAGE" = replace ]; then
+  # rebuild reels (no zoom, safe margins) from the committed graphic and swap them into the queued FB + TikTok posts
+  test -f out/replaced.json && { echo "Already replaced"; cat out/replaced.json; exit 0; }
+  curl -fsSL -o out/endcard_src.png https://uploads.postiz.com/2M90RzVCnv.png || true
+  python3 make_reel.py out/graphic.png out/endcard_src.png out
+  WHEN=$(tr -d '[:space:]' < publish_at.txt)
+  up() { postiz upload "$1" | json | python3 -c "import json,sys;print(json.load(sys.stdin)['path'])"; }
+  FBMP4=$(up out/reel_facebook.mp4); TTMP4=$(up out/reel_tiktok.mp4); echo "uploaded: $FBMP4 $TTMP4"
+  python3 - "$FBMP4" "$TTMP4" "$WHEN" <<'PY'
+import json, subprocess, sys
+fb, tt, when = sys.argv[1:4]
+old = {r['platform']: r for r in json.load(open('out/result.json'))}
+def run(*c):
+    r = subprocess.run(c, capture_output=True, text=True, stdin=subprocess.DEVNULL); return r.returncode, r.stdout + r.stderr
+def created(o):
+    i = min([k for k in (o.find('['), o.find('{')) if k >= 0]); j = json.loads(o[i:]); j = j if isinstance(j, list) else [j]
+    return j[0].get('postId') or j[0].get('id')
+out = {}
+for plat, integ, media, content, extra in [
+        ('facebook', 'cmw1op4mp0cztla07zr8ski3z', fb, open('facebook.txt').read(), ['-c', open('first_comment.txt').read()]),
+        ('tiktok-business', 'cmw21kbr201nrl808vqs2hovq', tt, open('tiktok.txt').read(), [])]:
+    o = old[plat]; s = {k: v for k, v in (o['settings'] or {}).items() if k != '__type'}
+    rc, txt = run('postiz', 'posts:create', '-c', content, '-m', media, *extra, '-s', when, '--settings', json.dumps(s), '-i', integ)
+    print(plat, 'create', rc, txt[-300:])
+    if rc: out[plat] = {'result': 'create failed', 'old': o['id']}; continue
+    new = created(txt)
+    rc, txt = run('postiz', 'posts:delete', o['id']); print(plat, 'delete old', rc, txt[-200:])
+    out[plat] = {'old': o['id'], 'new': new, 'old_deleted': rc == 0, 'media': media}
+json.dump(out, open('out/replaced.json', 'w'), indent=1); print(json.dumps(out, indent=1))
+PY
 elif [ "$STAGE" = publish ]; then
   test -f out/result.json && { echo "Already published"; cat out/result.json; exit 0; }
   WHEN=$(tr -d '[:space:]' < publish_at.txt)
