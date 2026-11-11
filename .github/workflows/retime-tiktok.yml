@@ -1,43 +1,35 @@
-name: Retime TikTok reels
+name: Retime queued TikTok reels
+
+# One-off: holds every picture in the queued TikTok reels 3 s longer
+# (Cheyenne, 2026-11-11). Runs on pushes to the retime-tiktok branch.
 on:
   push:
     branches: [retime-tiktok]
+    paths: [scripts/retime_plan.json]
+
 permissions:
   contents: write
+
+concurrency:
+  group: tiktok-music
+  cancel-in-progress: false
+
 jobs:
-  inspect:
+  retime:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: "20" }
-      - run: npm install -g postiz@2.0.27 --silent && sudo apt-get -qq install -y ffmpeg >/dev/null
-      - name: Inspect recent reel uploads
+      - run: npm install -g postiz@2.0.27 --silent && sudo apt-get -qq install -y ffmpeg >/dev/null && pip install -q numpy
+      - name: Retime
         env:
           POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
         run: |
-          mkdir -p _inspect
-          for p in 1 2 3 4 5 6 7 8; do postiz media:list --page $p 2>/dev/null | sed -n '/^[[{]/,$p' > m$p.json || true; done
-          python3 - <<'P'
-          import json,glob,subprocess,os
-          out=[]
-          for f in sorted(glob.glob('m*.json')):
-              try: d=json.load(open(f))
-              except Exception: continue
-              for m in d.get('results',[]):
-                  if m['path'].endswith('.mp4') and m['createdAt']>='2026-11-03': out.append(m)
-          json.dump(out,open('_inspect/media.json','w'),indent=1)
-          print(len(out))
-          for m in out:
-              n=m['name'][:-4]; u=m['path']
-              subprocess.run(['curl','-s','-o',f'{n}.mp4',u])
-              dur=subprocess.run(['ffprobe','-v','0','-show_entries','format=duration','-of','csv=p=0',f'{n}.mp4'],capture_output=True,text=True).stdout.strip()
-              sc=subprocess.run(['ffmpeg','-i',f'{n}.mp4','-vf',"select='gt(scene,0.25)',showinfo",'-f','null','-'],capture_output=True,text=True).stderr
-              cuts=[l.split('pts_time:')[1].split()[0] for l in sc.splitlines() if 'pts_time:' in l]
-              m['duration']=dur; m['cuts']=cuts
-              # contact sheet: frames at 1s and every 2s, tiled
-              subprocess.run(['ffmpeg','-v','error','-y','-i',f'{n}.mp4','-vf','fps=1/2,scale=180:-1,tile=8x2','-frames:v','1',f'_inspect/{m["createdAt"][:19].replace(":","")}_{n}.jpg'])
-          json.dump(out,open('_inspect/media.json','w'),indent=1)
-          P
+          start=$(date -u -d '-1 day' +%Y-%m-%dT%H:%M:%SZ); end=$(date -u -d '+30 days' +%Y-%m-%dT%H:%M:%SZ)
+          postiz posts:list --startDate "$start" --endDate "$end" > raw.txt
+          sed -n '/^[[{]/,$p' raw.txt > plist.json
+          python3 scripts/retime_queue.py plist.json scripts/retime_plan.json out || echo "SOME FAILED"
+          mkdir -p retime-report && cp out/report.json out/*.jpg retime-report/
           git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
-          git add _inspect && git commit -qm "Inspect reel uploads" && git push
+          git add retime-report && git commit -qm "Retime report" && git pull -q --rebase && git push
