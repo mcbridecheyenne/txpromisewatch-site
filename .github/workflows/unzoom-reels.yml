@@ -1,0 +1,47 @@
+name: Unzoom queued reels
+
+# One-off: rebuilds queued FB and TikTok reels with no zoom and every word inside the
+# safe box (Cheyenne, 2026-11-11). Runs on pushes to the unzoom-reels branch.
+on:
+  push:
+    branches: [unzoom-reels]
+    paths: [scripts/unzoom_plan.json]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tiktok-music
+  cancel-in-progress: false
+
+jobs:
+  unzoom:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: npm install -g postiz@2.0.27 --silent && sudo apt-get -qq install -y ffmpeg >/dev/null && pip install -q numpy pillow
+      - name: Unzoom
+        env:
+          POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
+        run: |
+          start=$(date -u -d '-1 day' +%Y-%m-%dT%H:%M:%SZ); end=$(date -u -d '+30 days' +%Y-%m-%dT%H:%M:%SZ)
+          postiz posts:list --startDate "$start" --endDate "$end" > raw.txt
+          sed -n '/^[[{]/,$p' raw.txt > plist.json
+          for p in $(seq 1 12); do postiz media:list --page $p 2>/dev/null | sed -n '/^[[{]/,$p' > m$p.json || true; done
+          python3 - <<'P'
+          import json,glob
+          out=[]
+          for f in sorted(glob.glob('m*.json')):
+              try: d=json.load(open(f))
+              except Exception: continue
+              out += [m for m in d.get('results',[]) if m['path'].endswith('.mp4') and m['createdAt']>='2026-11-03']
+          json.dump(out,open('media.json','w'),indent=1); print(len(out),'videos')
+          P
+          mkdir -p work && cd work
+          python3 ../scripts/unzoom_queue.py ../plist.json ../media.json ../scripts/unzoom_plan.json ../out || echo "SOME FAILED"
+          cd ..
+          rm -rf unzoom-report && mkdir -p unzoom-report && cp out/report.json out/*.jpg unzoom-report/
+          git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
+          git add unzoom-report && git commit -qm "Unzoom report" && git pull -q --rebase && git push
