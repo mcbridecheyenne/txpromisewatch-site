@@ -1,0 +1,35 @@
+2026-11-11T14:30:00.000Z QUEUE x 'Promise check 📌 Gina Hinojosa: "End corporate tax breaks to lower prop'
+2026-11-11T14:30:00.000Z QUEUE tiktok-business "Gina Hinojosa's promise: End corporate tax breaks to lower property ta"
+2026-11-11T14:30:00.000Z QUEUE facebook '📌 Promise check: End corporate tax breaks to lower property taxes\n\nGov'
+2026-11-11T14:30:00.000Z QUEUE facebook "Gina Hinojosa's promise: End corporate tax breaks to lower property ta"
+2026-11-11T17:00:00.000Z QUEUE x "Filed isn't passed. Texas Democrats pre-filed 2027 bills to expand Med"
+2026-11-11T17:00:00.000Z QUEUE tiktok-business "Filed isn't passed. Texas Democrats pre-filed bills for the 2027 sessi"
+2026-11-11T17:00:00.000Z QUEUE facebook "Filed isn't passed: what Texas Democrats proposed this week\n\nBill fili"
+2026-11-11T23:30:00.000Z QUEUE x 'Promise check 📌 James Talarico: "More than double the $7.25 federal mi'
+2026-11-11T23:30:00.000Z QUEUE tiktok-business "James Talarico's promise: More than double the $7.25 federal minimum w"
+2026-11-11T23:30:00.000Z QUEUE facebook '📌 Promise check: More than double the $7.25 federal minimum wage\n\nSen.'
+2026-11-11T23:30:00.000Z QUEUE facebook "James Talarico's promise: More than double the $7.25 federal minimum w"
+2026-11-12T14:30:00.000Z QUEUE x 'Promise check 📌 Gina Hinojosa: "Cash back for renters"\n\nShe promised r'
+2026-11-12T14:30:00.000Z QUEUE tiktok-business "Gina Hinojosa's promise: Cash back for renters. Where does it stand?\n\n"
+2026-11-12T14:30:00.000Z QUEUE facebook "Gina Hinojosa's promise: Cash back for renters. Where does it stand?\n\n"
+2026-11-12T14:30:00.000Z QUEUE facebook '📌 Promise check: Cash back for renters\n\nGov.-elect Gina Hinojosa promi'
+2026-11-12T23:30:00.000Z QUEUE x 'Promise check 📌 James Talarico: "Public option for health insurance"\n\n'
+2026-11-12T23:30:00.000Z QUEUE tiktok-business "James Talarico's promise: Public option for health insurance. Where do"
+2026-11-12T23:30:00.000Z QUEUE facebook "James Talarico's promise: Public option for health insurance. Where do"
+2026-11-12T23:30:00.000Z QUEUE facebook '📌 Promise check: Public option for health insurance\n\nSen.-elect James '
+2026-11-13T14:30:00.000Z QUEUE x 'Promise check 📌 James Talarico: "Repeal 2025 tax breaks for the top 1%'
+2026-11-13T14:30:00.000Z QUEUE tiktok-business "James Talarico's promise: Repeal 2025 tax breaks for the top 1%. Where"
+2026-11-13T14:30:00.000Z QUEUE facebook "James Talarico's promise: Repeal 2025 tax breaks for the top 1%. Where"
+2026-11-13T14:30:00.000Z QUEUE facebook '📌 Promise check: Repeal 2025 tax breaks for the top 1%\n\nSen.-elect Jam'
+2026-11-13T23:30:00.000Z QUEUE x 'Promise check 📌 James Talarico: "Expand veterans\' telemedicine and men'
+2026-11-13T23:30:00.000Z QUEUE tiktok-business "James Talarico's promise: Expand veterans' telemedicine and mental hea"
+2026-11-13T23:30:00.000Z QUEUE facebook "James Talarico's promise: Expand veterans' telemedicine and mental hea"
+2026-11-13T23:30:00.000Z QUEUE facebook "📌 Promise check: Expand veterans' telemedicine and mental health care\n"
+2026-11-14T14:30:00.000Z QUEUE x 'Promise check 📌 Nathan Johnson: "Overhaul the child support division t'
+2026-11-14T14:30:00.000Z QUEUE tiktok-business 'Promise check: Overhaul the child support division to cut delays\n\nAtto'
+2026-11-14T14:30:00.000Z QUEUE facebook 'Promise check: Overhaul the child support division to cut delays\n\nAtto'
+2026-11-14T14:30:00.000Z QUEUE facebook '📌 Promise check: Overhaul the child support division to cut delays\n\nAt'
+2026-11-14T23:30:00.000Z QUEUE x 'Promise check 📌 Vikki Goodwin: "No state budget that funds private sch'
+2026-11-14T23:30:00.000Z QUEUE tiktok-business 'Promise check: No state budget that funds private school vouchers\n\nLt.'
+2026-11-14T23:30:00.000Z QUEUE facebook 'Promise check: No state budget that funds private school vouchers\n\nLt.'
+2026-11-14T23:30:00.000Z QUEUE facebook '📌 Promise check: No state budget that funds private school vouchers\n\nL'

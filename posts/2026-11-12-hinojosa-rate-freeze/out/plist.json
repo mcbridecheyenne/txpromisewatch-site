@@ -1,0 +1,704 @@
+{
+  "posts": [
+    {
+      "id": "cmw1xd20w0jz1pl075vc7siar",
+      "content": "Promise check 📌 Gina Hinojosa: \"Cash back for renters\"\n\nShe promised renter cash back but has not published an amount, a cost, or who would qualify.\n\nStatus: Not started. #TexasPromiseWatch",
+      "publishDate": "2026-11-12T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "7750e1b2-cc73-478f-a1bf-27e5659c571f",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"who_can_reply_post\":\"everyone\",\"__type\":\"x\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1pgg8k0drqla078ivel5jr",
+        "providerIdentifier": "x",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/D9frMDkodN.jpg"
+      }
+    },
+    {
+      "id": "cmw1xczn70jrnla07dvx9ydig",
+      "content": "Promise check 📌 Gina Hinojosa: \"End corporate tax breaks to lower property taxes\"\n\nHer plan names no specific programs to cut or dollar amount for property tax relief.\n\nStatus: Not started. #TexasPromiseWatch",
+      "publishDate": "2026-11-11T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "c0f922c0-837c-4158-b4db-ff52170d7427",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"who_can_reply_post\":\"everyone\",\"__type\":\"x\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1pgg8k0drqla078ivel5jr",
+        "providerIdentifier": "x",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/D9frMDkodN.jpg"
+      }
+    },
+    {
+      "id": "cmw1xd0tp0jrqla07xzyyiugz",
+      "content": "Promise check 📌 James Talarico: \"More than double the $7.25 federal minimum wage\"\n\nHe proposes more than doubling $7.25, beyond $15; no exact figure stated.\n\nStatus: Not started. #TexasPromiseWatch",
+      "publishDate": "2026-11-11T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "1ab1d366-aca7-4173-9e57-200dfdf8e081",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"who_can_reply_post\":\"everyone\",\"__type\":\"x\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1pgg8k0drqla078ivel5jr",
+        "providerIdentifier": "x",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/D9frMDkodN.jpg"
+      }
+    },
+    {
+      "id": "cmw1xd37i0jz5pl07a7gza5ry",
+      "content": "Promise check 📌 James Talarico: \"Public option for health insurance\"\n\nNo public option exists; he backs one plus a Medicare buy-in.\n\nStatus: Not started. #TexasPromiseWatch",
+      "publishDate": "2026-11-12T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "75180f0f-a58b-46f4-ad20-2cd88478ab1f",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"who_can_reply_post\":\"everyone\",\"__type\":\"x\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1pgg8k0drqla078ivel5jr",
+        "providerIdentifier": "x",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/D9frMDkodN.jpg"
+      }
+    },
+    {
+      "id": "cmw1xd4ec0js2la07gy3vrvec",
+      "content": "Promise check 📌 James Talarico: \"Repeal 2025 tax breaks for the top 1%\"\n\nThe repeal is the core promise; where the money goes has shifted during the campaign.\n\nStatus: Not started. #TexasPromiseWatch",
+      "publishDate": "2026-11-13T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "a6b4d7a5-2f9d-41bf-a2cd-7ff1bdac865d",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"who_can_reply_post\":\"everyone\",\"__type\":\"x\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1pgg8k0drqla078ivel5jr",
+        "providerIdentifier": "x",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/D9frMDkodN.jpg"
+      }
+    },
+    {
+      "id": "cmw1xd5l10js4la079ly3lq2n",
+      "content": "Promise check 📌 James Talarico: \"Expand veterans' telemedicine and mental health care\"\n\nHis August 2026 plan expands VA telehealth and mental health staffing.\n\nStatus: Not started. #TexasPromiseWatch",
+      "publishDate": "2026-11-13T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "2a17d1b3-81d9-4007-98c1-a5023a6b96c4",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"who_can_reply_post\":\"everyone\",\"__type\":\"x\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1pgg8k0drqla078ivel5jr",
+        "providerIdentifier": "x",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/D9frMDkodN.jpg"
+      }
+    },
+    {
+      "id": "cmw47mf6t074xpg08d0zhz9m3",
+      "content": "Promise check 📌 Nathan Johnson: \"Overhaul the child support division to cut delays\"\n\nJohnson calls child support a core AG duty and promises to fix delays.\n\nStatus: Not started. #TexasPromiseWatch",
+      "publishDate": "2026-11-14T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "0627e430-66d9-41b2-99fc-1d684dcc08e3",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"who_can_reply_post\":\"everyone\",\"__type\":\"x\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1pgg8k0drqla078ivel5jr",
+        "providerIdentifier": "x",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/D9frMDkodN.jpg"
+      }
+    },
+    {
+      "id": "cmw47mgfw06tzrx072h908t0m",
+      "content": "Promise check 📌 Vikki Goodwin: \"No state budget that funds private school vouchers\"\n\nGoodwin says she would block voucher funding in the state budget; the program remains in law.\n\nStatus: Not started. #TexasPromiseWatch",
+      "publishDate": "2026-11-14T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "aa7b85a9-c98e-4f68-a603-cd8fd7cf81c2",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"who_can_reply_post\":\"everyone\",\"__type\":\"x\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1pgg8k0drqla078ivel5jr",
+        "providerIdentifier": "x",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/D9frMDkodN.jpg"
+      }
+    },
+    {
+      "id": "cmwbi5u5z0xgfpq07ihfw4o0t",
+      "content": "Filed isn't passed. Texas Democrats pre-filed 2027 bills to expand Medicaid, set a $15 minimum wage, legalize marijuana and raise the buying age for some semi-auto rifles to 21. None is law yet: each needs the House, the GOP-held Senate and the governor. #txlege",
+      "publishDate": "2026-11-11T17:00:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "40ca2aa2-7fd7-4db4-8c57-72018cae4be2",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"who_can_reply_post\":\"everyone\",\"__type\":\"x\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1pgg8k0drqla078ivel5jr",
+        "providerIdentifier": "x",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/D9frMDkodN.jpg"
+      }
+    },
+    {
+      "id": "cmwbi5uje0vywn306o1driyjg",
+      "content": "Filed isn't passed. Texas Democrats pre-filed bills for the 2027 session to expand Medicaid, raise the minimum wage to $15 an hour, legalize and tax marijuana, and raise the minimum age to buy certain semi-automatic rifles to 21. These are proposals, not laws. Each one has to pass the Texas House and the Republican-held Senate and get past the governor. Republicans filed their own bills too, including property tax cuts. Sources: Texas Tribune and Marijuana Moment.\n\nMore on Facebook (Texas Promise Watch), Instagram (@texas_promise_watch), X (@TXPromiseWatch) and TXPromiseWatch.com\n#TexasPromiseWatch #txlege #texaspolitics #texas",
+      "publishDate": "2026-11-11T17:00:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "69dd06dc-c558-4a48-9dee-764ade0dbf18",
+      "creationMethod": "CLI",
+      "settings": "{\"title\":\"Texas Democrats filed these bills. None of them are law yet.\",\"privacy_level\":\"PUBLIC_TO_EVERYONE\",\"duet\":false,\"stitch\":false,\"comment\":true,\"autoAddMusic\":\"no\",\"brand_content_toggle\":false,\"brand_organic_toggle\":false,\"video_made_with_ai\":false,\"content_posting_method\":\"DIRECT_POST\",\"music\":{\"id\":\"7622564116947060752\",\"title\":\"Hidden Truth Revealed\",\"artist\":\"Adauto Assis\",\"audio_volume\":60,\"video_volume\":50},\"__type\":\"tiktok-business\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw21kbr201nrl808vqs2hovq",
+        "providerIdentifier": "tiktok-business",
+        "name": "TXPromiseWatch",
+        "picture": "https://uploads.postiz.com/QCnBtZ6Ray.jpg"
+      }
+    },
+    {
+      "id": "cmwbio7nn0xwmpq07gmly67u8",
+      "content": "Gina Hinojosa's promise: End corporate tax breaks to lower property taxes. Where does it stand?\n\nGov.-elect Gina Hinojosa campaigned on this. What it needs: Legislature; governor's office approves some incentive deals. Status: Not started.\n\nDo you think this one gets done?\n\nSources: KBTX, with full links on our Facebook page\n\n#TexasPromiseWatch #txlege #Texas #TexasPolitics",
+      "publishDate": "2026-11-11T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "7355f8ea-231c-4978-97db-75cb3e56d49a",
+      "creationMethod": "CLI",
+      "settings": "{\"title\":\"Promise check: End corporate tax breaks to lower property taxes\",\"privacy_level\":\"PUBLIC_TO_EVERYONE\",\"duet\":false,\"stitch\":false,\"comment\":true,\"autoAddMusic\":\"no\",\"brand_content_toggle\":false,\"brand_organic_toggle\":false,\"video_made_with_ai\":false,\"content_posting_method\":\"DIRECT_POST\",\"music\":{\"id\":\"7521888697513396241\",\"title\":\"Self Aware\",\"artist\":\"Mark Allan Wolfe\",\"audio_volume\":60,\"video_volume\":50},\"__type\":\"tiktok-business\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw21kbr201nrl808vqs2hovq",
+        "providerIdentifier": "tiktok-business",
+        "name": "TXPromiseWatch",
+        "picture": "https://uploads.postiz.com/QCnBtZ6Ray.jpg"
+      }
+    },
+    {
+      "id": "cmwbioedh0wggn306yn6r9wfg",
+      "content": "James Talarico's promise: More than double the $7.25 federal minimum wage. Where does it stand?\n\nSen.-elect James Talarico campaigned on this. What it needs: Congress passes law, president signs. Status: Not started.\n\nDo you think this one gets done?\n\nSources: FOX 7 Austin, with full links on our Facebook page\n\n#TexasPromiseWatch #txlege #Texas #TexasPolitics",
+      "publishDate": "2026-11-11T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "0f7a24b2-f8ab-4a8f-82df-3725ad853d0f",
+      "creationMethod": "CLI",
+      "settings": "{\"title\":\"Promise check: More than double the $7.25 federal minimum wage\",\"privacy_level\":\"PUBLIC_TO_EVERYONE\",\"duet\":false,\"stitch\":false,\"comment\":true,\"autoAddMusic\":\"no\",\"brand_content_toggle\":false,\"brand_organic_toggle\":false,\"video_made_with_ai\":false,\"content_posting_method\":\"DIRECT_POST\",\"music\":{\"id\":\"7521888697513396241\",\"title\":\"Self Aware\",\"artist\":\"Mark Allan Wolfe\",\"audio_volume\":60,\"video_volume\":50},\"__type\":\"tiktok-business\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw21kbr201nrl808vqs2hovq",
+        "providerIdentifier": "tiktok-business",
+        "name": "TXPromiseWatch",
+        "picture": "https://uploads.postiz.com/QCnBtZ6Ray.jpg"
+      }
+    },
+    {
+      "id": "cmwbioqnx0wgnn306n573u6vo",
+      "content": "James Talarico's promise: Public option for health insurance. Where does it stand?\n\nSen.-elect James Talarico campaigned on this. What it needs: Congress passes law, president signs. Status: Not started.\n\nDo you think this one gets done?\n\nSources: The Texas Tribune, with full links on our Facebook page\n\n#TexasPromiseWatch #txlege #Texas #TexasPolitics",
+      "publishDate": "2026-11-12T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "29248bbf-d815-4477-a4a5-48cf1c147850",
+      "creationMethod": "CLI",
+      "settings": "{\"title\":\"Promise check: Public option for health insurance\",\"privacy_level\":\"PUBLIC_TO_EVERYONE\",\"duet\":false,\"stitch\":false,\"comment\":true,\"autoAddMusic\":\"no\",\"brand_content_toggle\":false,\"brand_organic_toggle\":false,\"video_made_with_ai\":false,\"content_posting_method\":\"DIRECT_POST\",\"music\":{\"id\":\"7584037896080902145\",\"title\":\"Sunset in Girona\",\"artist\":\"Noah Preminger & Max Light\",\"audio_volume\":60,\"video_volume\":50},\"__type\":\"tiktok-business\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw21kbr201nrl808vqs2hovq",
+        "providerIdentifier": "tiktok-business",
+        "name": "TXPromiseWatch",
+        "picture": "https://uploads.postiz.com/QCnBtZ6Ray.jpg"
+      }
+    },
+    {
+      "id": "cmwbiokit0xwtpq07h0gw1hzr",
+      "content": "Gina Hinojosa's promise: Cash back for renters. Where does it stand?\n\nGov.-elect Gina Hinojosa campaigned on this. What it needs: Legislature must create and fund a program. Status: Not started.\n\nDo you think this one gets done?\n\nSources: CBS Texas, with full links on our Facebook page\n\n#TexasPromiseWatch #txlege #Texas #TexasPolitics",
+      "publishDate": "2026-11-12T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "208b6c5c-ff7c-44ca-8dc2-8872f8b7eb44",
+      "creationMethod": "CLI",
+      "settings": "{\"title\":\"Promise check: Cash back for renters\",\"privacy_level\":\"PUBLIC_TO_EVERYONE\",\"duet\":false,\"stitch\":false,\"comment\":true,\"autoAddMusic\":\"no\",\"brand_content_toggle\":false,\"brand_organic_toggle\":false,\"video_made_with_ai\":false,\"content_posting_method\":\"DIRECT_POST\",\"music\":{\"id\":\"7584037896080902145\",\"title\":\"Sunset in Girona\",\"artist\":\"Noah Preminger & Max Light\",\"audio_volume\":60,\"video_volume\":50},\"__type\":\"tiktok-business\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw21kbr201nrl808vqs2hovq",
+        "providerIdentifier": "tiktok-business",
+        "name": "TXPromiseWatch",
+        "picture": "https://uploads.postiz.com/QCnBtZ6Ray.jpg"
+      }
+    },
+    {
+      "id": "cmwbip50a0wgtn306lbh8i73w",
+      "content": "James Talarico's promise: Expand veterans' telemedicine and mental health care. Where does it stand?\n\nSen.-elect James Talarico campaigned on this. What it needs: Congress and the VA. Status: Not started.\n\nDo you think this one gets done?\n\nSources: San Antonio Report, with full links on our Facebook page\n\n#TexasPromiseWatch #txlege #Texas #TexasPolitics",
+      "publishDate": "2026-11-13T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "1eb5480a-8e54-4fa3-ac78-ac54c6ef0495",
+      "creationMethod": "CLI",
+      "settings": "{\"title\":\"Promise check: Expand veterans' telemedicine and mental health care\",\"privacy_level\":\"PUBLIC_TO_EVERYONE\",\"duet\":false,\"stitch\":false,\"comment\":true,\"autoAddMusic\":\"no\",\"brand_content_toggle\":false,\"brand_organic_toggle\":false,\"video_made_with_ai\":false,\"content_posting_method\":\"DIRECT_POST\",\"music\":{\"id\":\"7584037896080902145\",\"title\":\"Sunset in Girona\",\"artist\":\"Noah Preminger & Max Light\",\"audio_volume\":60,\"video_volume\":50},\"__type\":\"tiktok-business\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw21kbr201nrl808vqs2hovq",
+        "providerIdentifier": "tiktok-business",
+        "name": "TXPromiseWatch",
+        "picture": "https://uploads.postiz.com/QCnBtZ6Ray.jpg"
+      }
+    },
+    {
+      "id": "cmwbiox1p0wgpn306zvbd0z4e",
+      "content": "James Talarico's promise: Repeal 2025 tax breaks for the top 1%. Where does it stand?\n\nSen.-elect James Talarico campaigned on this. What it needs: Congress passes law, president signs. Status: Not started.\n\nDo you think this one gets done?\n\nSources: KSAT, with full links on our Facebook page\n\n#TexasPromiseWatch #txlege #Texas #TexasPolitics",
+      "publishDate": "2026-11-13T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "1281fe2a-521e-4d53-a1ab-94a07b7974fa",
+      "creationMethod": "CLI",
+      "settings": "{\"title\":\"Promise check: Repeal 2025 tax breaks for the top 1%\",\"privacy_level\":\"PUBLIC_TO_EVERYONE\",\"duet\":false,\"stitch\":false,\"comment\":true,\"autoAddMusic\":\"no\",\"brand_content_toggle\":false,\"brand_organic_toggle\":false,\"video_made_with_ai\":false,\"content_posting_method\":\"DIRECT_POST\",\"music\":{\"id\":\"7622564116947060752\",\"title\":\"Hidden Truth Revealed\",\"artist\":\"Adauto Assis\",\"audio_volume\":60,\"video_volume\":50},\"__type\":\"tiktok-business\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw21kbr201nrl808vqs2hovq",
+        "providerIdentifier": "tiktok-business",
+        "name": "TXPromiseWatch",
+        "picture": "https://uploads.postiz.com/QCnBtZ6Ray.jpg"
+      }
+    },
+    {
+      "id": "cmwbipcwi0wgyn306kv8ujlvh",
+      "content": "Promise check: Overhaul the child support division to cut delays\n\nAttorney General-elect Nathan Johnson promised this. The AG runs child support for about 1.5 million cases, and parents reported weeks-long delays after the new ChAMP system launched in 2025. What it needs: New AG; Legislature for funding. Status: Not started.\n\nDo you think this one gets done?\n\nSources: full links on our Facebook page\n\nMore on Facebook (Texas Promise Watch), Instagram (@texas_promise_watch), X (@TXPromiseWatch) and TXPromiseWatch.com\n\n#TexasPromiseWatch #txlege #Texas #TexasPolitics",
+      "publishDate": "2026-11-14T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "61967982-1b09-4736-a5a3-db88126757fd",
+      "creationMethod": "CLI",
+      "settings": "{\"title\":\"Promise check: Overhaul the child support division to cut delays\",\"privacy_level\":\"PUBLIC_TO_EVERYONE\",\"duet\":false,\"stitch\":false,\"comment\":true,\"autoAddMusic\":\"no\",\"brand_content_toggle\":false,\"brand_organic_toggle\":false,\"video_made_with_ai\":false,\"content_posting_method\":\"DIRECT_POST\",\"music\":{\"id\":\"7622564116947060752\",\"title\":\"Hidden Truth Revealed\",\"artist\":\"Adauto Assis\",\"audio_volume\":60,\"video_volume\":50},\"__type\":\"tiktok-business\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw21kbr201nrl808vqs2hovq",
+        "providerIdentifier": "tiktok-business",
+        "name": "TXPromiseWatch",
+        "picture": "https://uploads.postiz.com/QCnBtZ6Ray.jpg"
+      }
+    },
+    {
+      "id": "cmwbipkdu0xxhpq07k7yx9kzj",
+      "content": "Promise check: No state budget that funds private school vouchers\n\nLt. Gov.-elect Vikki Goodwin pledged: \"I will not approve a budget that provides money for private schools.\" A 2025 law created a $1B education savings account program, and 123,743 applied for 90,000 slots by Feb. 22. What it needs: Senate, House and governor on budget. Status: Not started.\n\nDo you think this one gets done?\n\nSources: full links on our Facebook page\n\nMore on Facebook (Texas Promise Watch), Instagram (@texas_promise_watch), X (@TXPromiseWatch) and TXPromiseWatch.com\n\n#TexasPromiseWatch #txlege #Texas #TexasPolitics",
+      "publishDate": "2026-11-14T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "28f502d8-2b9e-4209-9323-a966bfb4f8fb",
+      "creationMethod": "CLI",
+      "settings": "{\"title\":\"Promise check: No state budget that funds private school vouchers\",\"privacy_level\":\"PUBLIC_TO_EVERYONE\",\"duet\":false,\"stitch\":false,\"comment\":true,\"autoAddMusic\":\"no\",\"brand_content_toggle\":false,\"brand_organic_toggle\":false,\"video_made_with_ai\":false,\"content_posting_method\":\"DIRECT_POST\",\"music\":{\"id\":\"7521888697513396241\",\"title\":\"Self Aware\",\"artist\":\"Mark Allan Wolfe\",\"audio_volume\":60,\"video_volume\":50},\"__type\":\"tiktok-business\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw21kbr201nrl808vqs2hovq",
+        "providerIdentifier": "tiktok-business",
+        "name": "TXPromiseWatch",
+        "picture": "https://uploads.postiz.com/QCnBtZ6Ray.jpg"
+      }
+    },
+    {
+      "id": "cmw5qybew0xj8oj072byg1p87",
+      "content": "Promise check: Overhaul the child support division to cut delays\n\nAttorney General-elect Nathan Johnson promised this. The AG runs child support for about 1.5 million cases, and parents reported weeks-long delays after the new ChAMP system launched in 2025. What it needs: New AG; Legislature for funding. Status: Not started.\n\nDo you think this one gets done?\n\nSources: links in the first comment\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-14T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "27a67c1f-1e0e-4c67-9ffc-446597b60c52",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"title\":\"Promise check: Overhaul the child support division to cut delays\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw5qyd360xjaoj07czlf5e8v",
+      "content": "Promise check: No state budget that funds private school vouchers\n\nLt. Gov.-elect Vikki Goodwin pledged: \"I will not approve a budget that provides money for private schools.\" A 2025 law created a $1B education savings account program, and 123,743 applied for 90,000 slots by Feb. 22. What it needs: Senate, House and governor on budget. Status: Not started.\n\nDo you think this one gets done?\n\nSources: links in the first comment\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-14T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "95fe56ff-3bcc-4fd3-8447-d3b0f7de91bb",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"title\":\"Promise check: No state budget that funds private school vouchers\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw1xd0lp0jrpla07c7uskr3k",
+      "content": "📌 Promise check: More than double the $7.25 federal minimum wage\n\nSen.-elect James Talarico promised this. Here's where things stand:\n\nWHAT'S HAPPENING NOW\n• Federal minimum wage: $7.25/hour since 2009\n• Texas uses the federal $7.25 minimum\n• No federal increase passed since 2009\n\nJAMES'S PLAN\nRaise minimum wage over 100%; said '$15 is not going to be enough'\n\nWhat it needs: Congress passes law, president signs\nStatus: Not started\n\nHe proposes more than doubling $7.25, beyond $15; no exact figure stated.\n\nDo you think this one gets done?\n\nSources:\nhttps://dub.sh/3YDuTbD\nhttps://dub.sh/X2gQGgG\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-11T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "8705df2a-d091-40e1-9fc1-e7b5b261a5e0",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw1xcze30jyypl07j5byo0p9",
+      "content": "📌 Promise check: End corporate tax breaks to lower property taxes\n\nGov.-elect Gina Hinojosa promised this. Here's where things stand:\n\nWHAT'S HAPPENING NOW\n• School homestead exemption raised to $140,000 (2025)\n• Seniors/disabled exemption totals $200,000\n• JETI (Ch. 403): 10-year school tax cuts for firms\n\nGINA'S PLAN\n'Wipe clean corporate welfare'; use savings to significantly reduce homeowner property taxes.\n\nWhat it needs: Legislature; governor's office approves some incentive deals\nStatus: Not started\n\nHer plan names no specific programs to cut or dollar amount for property tax relief.\n\nDo you think this one gets done?\n\nSources:\nhttps://dub.sh/SoYkHwn\nhttps://dub.sh/8jBAW8v\nhttps://dub.sh/4Cg9LiJ\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-11T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "71d19cd2-d66d-4c4c-bfd3-a978391ddc07",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw2bpacz0awcl808q4hk5xvv",
+      "content": "Gina Hinojosa's promise: Cash back for renters. Where does it stand?\n\nGov.-elect Gina Hinojosa campaigned on this. What it needs: Legislature must create and fund a program. Status: Not started.\n\nDo you think this one gets done?\n\nSources: CBS Texas (links in the first comment)\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-12T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "7f7e4e87-fabd-4ccd-9a99-b7b439c21d67",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"title\":\"Promise check: Cash back for renters\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw2bp6c90acmmk08hm9r3a44",
+      "content": "Gina Hinojosa's promise: End corporate tax breaks to lower property taxes. Where does it stand?\n\nGov.-elect Gina Hinojosa campaigned on this. What it needs: Legislature; governor's office approves some incentive deals. Status: Not started.\n\nDo you think this one gets done?\n\nSources: KBTX (links in the first comment)\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-11T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "764ee564-73dc-4649-be42-8c39f02c6b08",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"title\":\"Promise check: End corporate tax breaks to lower property taxes\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw2bp92n0acrmk08mr2cdt4n",
+      "content": "James Talarico's promise: More than double the $7.25 federal minimum wage. Where does it stand?\n\nSen.-elect James Talarico campaigned on this. What it needs: Congress passes law, president signs. Status: Not started.\n\nDo you think this one gets done?\n\nSources: FOX 7 Austin (links in the first comment)\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-11T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "4f797a8c-145b-4788-a462-01c8d093f6d5",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"title\":\"Promise check: More than double the $7.25 federal minimum wage\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw2bpblb0awhl808y5cxfv3c",
+      "content": "James Talarico's promise: Public option for health insurance. Where does it stand?\n\nSen.-elect James Talarico campaigned on this. What it needs: Congress passes law, president signs. Status: Not started.\n\nDo you think this one gets done?\n\nSources: The Texas Tribune (links in the first comment)\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-12T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "62eb8dbd-035f-4ebe-a171-19439a014180",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"title\":\"Promise check: Public option for health insurance\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw2bpcns0acymk08twkda8bf",
+      "content": "James Talarico's promise: Repeal 2025 tax breaks for the top 1%. Where does it stand?\n\nSen.-elect James Talarico campaigned on this. What it needs: Congress passes law, president signs. Status: Not started.\n\nDo you think this one gets done?\n\nSources: KSAT (links in the first comment)\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-13T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "3f6a0122-80b3-4123-82f6-b51fda1a4225",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"title\":\"Promise check: Repeal 2025 tax breaks for the top 1%\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw2bpdu90awol808fg2eze0t",
+      "content": "James Talarico's promise: Expand veterans' telemedicine and mental health care. Where does it stand?\n\nSen.-elect James Talarico campaigned on this. What it needs: Congress and the VA. Status: Not started.\n\nDo you think this one gets done?\n\nSources: San Antonio Report (links in the first comment)\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-13T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "1f7c8514-f12b-458d-b0cf-364e466abdc1",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"title\":\"Promise check: Expand veterans' telemedicine and mental health care\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw3hs6fc01t3nv08d1mkls5u",
+      "content": "📌 Promise check: Cash back for renters\n\nGov.-elect Gina Hinojosa promised this. Here's where things stand:\n\nWHAT'S HAPPENING NOW\n• No state property-tax relief program for renters today\n• Renters pay property taxes indirectly, through rent\n\nGINA'S PLAN\n'Cut taxes and give cash back to renters'; no amount or mechanism published.\n\nWhat it needs: Legislature must create and fund a program\nStatus: Not started\n\nShe promised renter cash back but has not published an amount, a cost, or who would qualify.\n\nDo you think this one gets done?\n\nSources:\nhttps://dub.sh/40mRbLS\nhttps://dub.sh/RrC0eZs\nhttps://dub.sh/Vaip5Yc\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-12T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "0e994284-377b-44e1-a33b-e1c55dc6fa4f",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw3hs6vk023hod07nrmwxzlr",
+      "content": "📌 Promise check: Public option for health insurance\n\nSen.-elect James Talarico promised this. Here's where things stand:\n\nWHAT'S HAPPENING NOW\n• No federal public option; marketplace plans are private\n• Texas has the highest uninsured rate of any state (U.S. Census Bureau, American Community Survey, 2024)\n\nJAMES'S PLAN\nCreate a public option and a Medicare buy-in for all ages\n\nWhat it needs: Congress passes law, president signs\nStatus: Not started\n\nNo public option exists; he backs one plus a Medicare buy-in.\n\nDo you think this one gets done?\n\nSources:\nhttps://dub.sh/VQLYFSk\nhttps://dub.sh/97VgaJ7\nhttps://www.census.gov/topics/health/health-insurance.html\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-12T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "e24bf17a-2844-47e4-be51-2806f8aa0d3b",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw3hs7d5023jod074q6wwsrz",
+      "content": "📌 Promise check: Repeal 2025 tax breaks for the top 1%\n\nSen.-elect James Talarico promised this. Here's where things stand:\n\nWHAT'S HAPPENING NOW\n• \"One Big Beautiful Bill\" tax law signed July 4, 2025\n• It made the 2017 income tax cuts permanent\n\nJAMES'S PLAN\nUndo 2025 tax-law breaks for the top 1% and redirect the money to working families.\n\nWhat it needs: Congress passes law, president signs\nStatus: Not started\n\nThe repeal is the core promise; where the money goes has shifted during the campaign.\n\nDo you think this one gets done?\n\nSources:\nhttps://dub.sh/HR8WYZx\nhttps://dub.sh/yUCD4KN\nhttps://dub.sh/TIAYXQd\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-13T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "21d76d89-c9bb-4130-b4db-b6e9110cb763",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw3hs7t7023kod07ggcwyo74",
+      "content": "📌 Promise check: Expand veterans' telemedicine and mental health care\n\nSen.-elect James Talarico promised this. Here's where things stand:\n\nWHAT'S HAPPENING NOW\n• More than 17 veterans die by suicide each day nationally (VA)\n\nJAMES'S PLAN\nExpand veterans' telemedicine and mental health workforce; make VA care mandatory spending\n\nWhat it needs: Congress and the VA\nStatus: Not started\n\nHis August 2026 plan expands VA telehealth and mental health staffing.\n\nVeterans in crisis: call or text 988, then press 1.\n\nDo you think this one gets done?\n\nSources:\nhttps://dub.sh/OQZGqfY\nhttps://dub.sh/lDvJrkB\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-13T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "7ecbcc27-88b6-40cb-8af3-565f13d446c3",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw47meyi074wpg0865g9ypqr",
+      "content": "📌 Promise check: Overhaul the child support division to cut delays\n\nAttorney General-elect Nathan Johnson promised this. Here's where things stand:\n\nWHAT'S HAPPENING NOW\n• AG runs child support for ~1.5 million cases\n• New ChAMP system launched 2025; parents reported weeks-long delays\n• June 2025 payouts: $288M vs ~$400M/month in 2020\n\nNATHAN'S PLAN\nMake fixing child support delays and customer service a top priority\n\nWhat it needs: New AG; Legislature for funding\nStatus: Not started\n\nJohnson calls child support a core AG duty and promises to fix delays.\n\nDo you think this one gets done?\n\nSources:\nhttps://dub.sh/EMIRsQ1\nhttps://dub.sh/DiJfho3\nhttps://dub.sh/apglGtq\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-14T14:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "1eebb0ad-872c-4964-aae1-eb01a9c664ca",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmw47mg8v074zpg08kg7gye5n",
+      "content": "📌 Promise check: No state budget that funds private school vouchers\n\nLt. Gov.-elect Vikki Goodwin promised this. Here's where things stand:\n\nWHAT'S HAPPENING NOW\n• 2025 law created $1B education savings account program\n• 123,743 applied for 90,000 slots by Feb. 22\n• Up to $10,474 per student for 2026-27\n\nVIKKI'S PLAN\nPledged: \"I will not approve a budget that provides money for private schools.\"\n\nWhat it needs: Senate, House and governor on budget\nStatus: Not started\n\nGoodwin says she would block voucher funding in the state budget; the program remains in law.\n\nDo you think this one gets done?\n\nSources:\nhttps://dub.sh/Ml0ZTZw\nhttps://dub.sh/iaS2Bdq\nhttps://dub.sh/xp8aKYc\n\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-14T23:30:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "9fb25625-07ca-4075-9883-c632c4a10bb5",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    },
+    {
+      "id": "cmwbi5tyx0vytn306kipn5gnb",
+      "content": "Filed isn't passed: what Texas Democrats proposed this week\n\nBill filing for the 2027 Texas legislative session opened Nov. 9, and Democrats pre-filed bills on several big issues:\n\n• Expand Medicaid (House bill by Rep. John Bucy, Senate bill by Sen. Judith Zaffirini)\n• Raise the state minimum wage to $15 an hour (HB 110, HB 132)\n• Legalize, tax and regulate marijuana (HB 362, HB 369)\n• Raise the minimum age to buy certain semi-automatic rifles to 21 (HB 173)\n\nThese are proposals, not laws. A bill has to pass the Texas House and Senate and get past the governor. Democrats now hold the House; Republicans still hold the Senate, where the Texas Tribune expects many of these ideas to face heavy resistance. Republicans filed their own bills too, including ones to cut or end property taxes.\n\nYou may have seen \"20 gun bills.\" So far we could confirm the rifle-age bill only.\n\nWhich should we track?\n\nSources: Texas Tribune, Marijuana Moment (links in the first comment)\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-11T17:00:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "fa23bc3f-7c5b-4b32-8cb2-49177ab98abf",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"title\":\"Texas Democrats filed these bills. None of them are law yet.\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    }
+  ]
+}
