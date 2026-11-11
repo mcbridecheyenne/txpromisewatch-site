@@ -12,32 +12,12 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: "20" }
       - run: npm install -g postiz@2.0.27 --silent
-      - name: List TikTok posts
+      - name: Probe
         env:
           POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
         run: |
-          start=$(date -u -d '-1 day' +%Y-%m-%dT%H:%M:%SZ); end=$(date -u -d '+30 days' +%Y-%m-%dT%H:%M:%SZ)
-          postiz posts:list --startDate "$start" --endDate "$end" > raw.txt
-          sed -n '/^[[{]/,$p' raw.txt > plist.json
-          python3 - <<'P'
-          import json
-          d=json.load(open('plist.json')); p=d['posts'] if isinstance(d,dict) else d
-          tt=[x for x in p if 'tiktok' in x['integration']['providerIdentifier'] and x.get('state') in ('DRAFT','QUEUE')]
-          json.dump(tt,open('tiktok.json','w'),indent=1)
-          print(len(tt))
-          print(json.dumps(tt[0])[:4000])
-          for x in tt: print('POST',x['id'],x['state'],x['publishDate'],str(x.get('image'))[:300])
-          P
-          sudo apt-get -qq install -y ffmpeg >/dev/null
-          python3 - <<'P'
-          import json,re,subprocess
-          for x in json.load(open('tiktok.json')):
-              imgs=x.get('image'); imgs=json.loads(imgs) if isinstance(imgs,str) else imgs
-              for m in imgs or []:
-                  u=m.get('path')
-                  if u and u.endswith('.mp4'):
-                      d=subprocess.run(['ffprobe','-v','0','-show_entries','format=duration','-of','csv=p=0',u],capture_output=True,text=True).stdout.strip()
-                      print(x['id'],x['state'],x['publishDate'],d,u)
-          P
-      - uses: actions/upload-artifact@v4
-        with: { name: tiktok, path: tiktok.json }
+          A="https://api.postiz.com/public/v1"
+          for u in "posts/cmw2bp6jt0aw4l8085fc75n9x" "posts/group/7e20ce5a-ade6-4b4a-8e48-9464d64b5208"; do
+            echo "== $u"; curl -s -H "Authorization: $POSTIZ_API_KEY" "$A/$u" | head -c 3000; echo
+          done
+          echo "== media"; postiz media:list 2>&1 | head -c 6000
