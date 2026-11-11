@@ -78,7 +78,7 @@ for p, kind, src_name, date in jobs:
             t0 = media[tt_name]["createdAt"]
             t0d = datetime.datetime.fromisoformat(t0.replace("Z", "+00:00"))
             cands = [n for n, m in media.items() if n not in tt_media_names and
-                     datetime.timedelta(0) < t0d - datetime.datetime.fromisoformat(m["createdAt"].replace("Z", "+00:00")) < datetime.timedelta(minutes=15)]
+                     datetime.timedelta(0) < t0d - datetime.datetime.fromisoformat(m["createdAt"].replace("Z", "+00:00")) < datetime.timedelta(minutes=40)]
             ref = thumb(tt_f)
             scores = sorted((float(np.abs(thumb(fetch(n)) - ref).mean()), n) for n in cands)
             row["fb_candidates"] = [(round(a, 2), n) for a, n in scores[:4]]
