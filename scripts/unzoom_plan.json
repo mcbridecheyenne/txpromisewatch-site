@@ -1,5 +1,5 @@
 {
- "apply": false,
+ "apply": true,
  "exclude": [
   "cmwbl9ead01amqq07ynhogiyv",
   "cmwbl9elq01dbrw08e4szoz74"
@@ -86,5 +86,5 @@
    "publishDate": "2026-11-18T23:30:00.000Z"
   }
  },
- "note": "dump sources"
+ "note": "apply after reviewing all 32 contact sheets"
 }

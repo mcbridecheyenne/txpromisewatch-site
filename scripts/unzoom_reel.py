@@ -19,23 +19,26 @@ def probe(path):
     return float(json.loads(r.stdout)["format"]["duration"])
 
 def find_cuts(src, dur):
-    w, h, L = 72, 128, 15
-    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", src, "-vf", f"fps={FPS},scale={w}:{h},format=gray",
+    """Crossfade centres: peaks in the 0.3 s frame difference (10 fps) that stand well above the zoom drift."""
+    f10, w, h = 10, 108, 192
+    raw = subprocess.run(["ffmpeg", "-v", "error", "-i", src, "-vf", f"fps={f10},scale={w}:{h},format=gray",
                           "-f", "rawvideo", "-"], capture_output=True, check=True).stdout
     fr = np.frombuffer(raw, np.uint8).reshape(-1, h, w).astype(np.float32)
-    d = np.array([np.abs(fr[i + L] - fr[i]).mean() for i in range(len(fr) - L)])
-    base = np.median(d); thr = max(base * 4, base + 0.5)
-    cuts, i = [], 0
-    while i < len(d):
-        if d[i] > thr:
-            j = i
-            while j < len(d) and d[j] > thr: j += 1
-            c = (i + int(np.argmax(d[i:j])) + L / 2) / FPS
-            if not cuts or c - cuts[-1] > 1.0: cuts.append(c)
-            i = j
-        else:
-            i += 1
-    return [c for c in cuts if 2.0 < c < dur - 1.0]
+    d = np.array([0.0] * 3 + [np.abs(fr[i] - fr[i - 3]).mean() for i in range(3, len(fr))])
+    cuts = []
+    for i in range(len(d)):
+        lo, hi = max(0, i - 10), min(len(d), i + 11)
+        if d[i] < 1.5 or d[i] < d[lo:hi].max(): continue  # must be the top within +-1 s
+        around = np.concatenate([d[max(0, i - 15):max(0, i - 4)], d[i + 5:i + 16]])
+        if len(around) and d[i] < 3 * np.median(around): continue  # must stand out from the zoom drift
+        c = i / f10 - 0.15  # the diff window is 0.3 s wide
+        if not cuts or c - cuts[-1] > 1.8: cuts.append(c)
+    return [c for c in cuts if 1.0 < c < dur - 1.0]
+
+def looks_like(a, path):
+    b = np.asarray(Image.open(path).convert("L").resize((54, 96))).astype(np.float32)
+    g = np.asarray(Image.fromarray(a.astype(np.uint8)).convert("L").resize((54, 96))).astype(np.float32)
+    return float(np.abs(b - g).mean())
 
 def grab(src, t, path):
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{t:.3f}", "-i", src, "-frames:v", "1",
@@ -102,19 +105,18 @@ def main():
     holds = [edges[k + 1] - edges[k] for k in range(len(edges) - 1)]
     tmp = tempfile.mkdtemp()
     imgs, info = [], []
+    stock = os.path.join(os.path.dirname(os.path.abspath(__file__)), "endcard_stock.png")
     for k in range(len(holds)):
-        if k == len(holds) - 1 and a.endcard:
-            imgs.append(a.endcard); info.append({"pic": k, "endcard": True}); continue
-        late = grab(a.src, edges[k + 1] - 0.3, f"{tmp}/late{k}.png")
-        if k == 0:
-            early = grab(a.src, 0.05, f"{tmp}/early{k}.png")
-            # an intro that animates in leaves the first frame emptier: use the late frame then
-            pick = early if content_box(early)[1] >= 0.9 * content_box(late)[1] else late
-        else:
-            pick = grab(a.src, edges[k] + XF / 2 + 0.05, f"{tmp}/early{k}.png")
+        t = 0.05 if k == 0 else edges[k] + 0.3
+        pick = grab(a.src, t, f"{tmp}/raw{k}.png")
+        if k == len(holds) - 1 and a.endcard and looks_like(pick, stock) < 18:
+            imgs.append(a.endcard); info.append({"pic": k, "endcard": "replaced"}); continue
         img, box, shrunk = make_safe(pick)
         p = f"{tmp}/pic{k}.png"; img.save(p); imgs.append(p)
         info.append({"pic": k, "box": box, "shrunk": shrunk})
+    if a.endcard and info[-1].get("endcard") != "replaced":
+        # older reels had no end card: add it after the takeaway, 3 s + extra
+        imgs.append(a.endcard); holds.append(3.0); info.append({"pic": len(holds) - 1, "endcard": "added"})
     holds = [h + a.extra for h in holds]
     build(imgs, holds, a.dst)
     out_dur = probe(a.dst)

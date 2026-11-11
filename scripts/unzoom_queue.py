@@ -79,11 +79,19 @@ for p, kind, src_name, date in jobs:
             t0d = datetime.datetime.fromisoformat(t0.replace("Z", "+00:00"))
             cands = [n for n, m in media.items() if n not in tt_media_names and
                      datetime.timedelta(0) < t0d - datetime.datetime.fromisoformat(m["createdAt"].replace("Z", "+00:00")) < datetime.timedelta(minutes=40)]
-            ref = thumb(tt_f)
-            scores = sorted((float(np.abs(thumb(fetch(n)) - ref).mean()), n) for n in cands)
-            row["fb_candidates"] = [(round(a, 2), n) for a, n in scores[:4]]
-            if not scores or scores[0][0] > 6: row["result"] = "failed: no matching FB video"; continue
-            src_name = scores[0][1]
+            if t0 < "2026-11-06":
+                # before the TikTok end card existed, FB and TikTok shared one upload
+                row["fb_candidates"] = "shared upload"; cands = []; src_name = tt_name
+            ref = thumb(tt_f, 0.05)
+            stock = np.asarray(Image.open(os.path.join(here, "endcard_stock.png")).convert("L").resize((54, 96))).astype(np.float32)
+            def ends_with_card(f):
+                d = float(subprocess.check_output(["ffprobe", "-v", "0", "-show_entries", "format=duration", "-of", "csv=p=0", f]))
+                return float(np.abs(thumb(f, d - 0.5) - stock).mean()) < 18
+            scores = sorted((float(np.abs(thumb(fetch(n), 0.05) - ref).mean()), n) for n in cands if not ends_with_card(fetch(n)))
+            if cands:
+                row["fb_candidates"] = [(round(a, 2), n) for a, n in scores[:4]]
+                if not scores or scores[0][0] > 3: row["result"] = "failed: no matching FB video"; continue
+                src_name = scores[0][1]
         row["src_media"] = src_name
         srcf = fetch(src_name); dst = os.path.join(out, f"{p['id']}.mp4")
         args = ["python3", os.path.join(here, "unzoom_reel.py"), srcf, dst, "--sheet", os.path.join(out, f"{p['publishDate'][:16].replace(':', '')}_{kind}.jpg")]
