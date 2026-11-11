@@ -43,7 +43,8 @@ while i < len(d):
         i = j
     else:
         i += 1
-cuts = [c for c in cuts if 0.8 < c < dur - 0.8]
+# a picture always lasts 2 s or more, so changes in the first 2 s are the intro animating in
+cuts = [c for c in cuts if 2.0 < c < dur - 1.0]
 if not cuts:
     sys.exit(f"no picture changes found in {a.src}")
 F = 0.2  # half a 0.4 s fade
