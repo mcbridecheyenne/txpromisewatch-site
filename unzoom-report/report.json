@@ -12,14 +12,17 @@
   "title": "Promise check: End corporate tax breaks to lower property taxes",
   "src_media": "jKWgRTsSrp",
   "in_s": 16.9,
-  "out_s": 31.9,
-  "pictures": 5,
+  "out_s": 37.9,
+  "pictures": 6,
   "shrunk": [
    1,
    2,
-   3
+   3,
+   4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbn4kby004op0075so58vgi",
+  "new_media": "https://uploads.postiz.com/Wr1PF8RGUz.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmw2bp6c90acmmk08hm9r3a44",
@@ -27,25 +30,21 @@
   "publishDate": "2026-11-11T14:30:00.000Z",
   "state": "QUEUE",
   "title": "Promise check: End corporate tax breaks to lower property taxes",
-  "fb_candidates": [
-   [
-    7.4,
-    "J0POb2WUDM"
-   ],
-   [
-    8.64,
-    "3XMJG0VG3g"
-   ],
-   [
-    14.08,
-    "UxZvURXp9b"
-   ],
-   [
-    14.19,
-    "UyB6tp1Gzx"
-   ]
+  "fb_candidates": "shared upload",
+  "src_media": "jKWgRTsSrp",
+  "in_s": 16.9,
+  "out_s": 16.9,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3,
+   4
   ],
-  "result": "failed: no matching FB video"
+  "first_comment": "Sources:\nhttps://dub.sh/SoYkHwn\nhttps://dub.sh/8jBAW8v\nhttps://dub.sh/4Cg9LiJ",
+  "new_post": "cmwbn4sky0058nn07ijuemnpf",
+  "new_media": "https://uploads.postiz.com/qXliJqwQ66.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbioedh0wggn306yn6r9wfg",
@@ -55,14 +54,17 @@
   "title": "Promise check: More than double the $7.25 federal minimum wage",
   "src_media": "28OOyKJTAW",
   "in_s": 16.9,
-  "out_s": 31.9,
-  "pictures": 5,
+  "out_s": 37.9,
+  "pictures": 6,
   "shrunk": [
    1,
    2,
-   3
+   3,
+   4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbn562d0052p007i389lxl8",
+  "new_media": "https://uploads.postiz.com/CH7UkrW37X.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmw2bp92n0acrmk08mr2cdt4n",
@@ -70,25 +72,21 @@
   "publishDate": "2026-11-11T23:30:00.000Z",
   "state": "QUEUE",
   "title": "Promise check: More than double the $7.25 federal minimum wage",
-  "fb_candidates": [
-   [
-    8.5,
-    "J0POb2WUDM"
-   ],
-   [
-    9.58,
-    "3XMJG0VG3g"
-   ],
-   [
-    13.09,
-    "L6y3kpBPJs"
-   ],
-   [
-    13.68,
-    "UyB6tp1Gzx"
-   ]
+  "fb_candidates": "shared upload",
+  "src_media": "28OOyKJTAW",
+  "in_s": 16.9,
+  "out_s": 16.9,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3,
+   4
   ],
-  "result": "failed: no matching FB video"
+  "first_comment": "Sources:\nhttps://dub.sh/3YDuTbD\nhttps://dub.sh/X2gQGgG",
+  "new_post": "cmwbn5e9o005znn07jbznu4t2",
+  "new_media": "https://uploads.postiz.com/FElVer3AUY.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbiokit0xwtpq07h0gw1hzr",
@@ -98,14 +96,17 @@
   "title": "Promise check: Cash back for renters",
   "src_media": "cHTwClSU12",
   "in_s": 16.9,
-  "out_s": 31.9,
-  "pictures": 5,
+  "out_s": 37.9,
+  "pictures": 6,
   "shrunk": [
    1,
    2,
-   3
+   3,
+   4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbn5ryy006lnn07kqsk9rxe",
+  "new_media": "https://uploads.postiz.com/fHGs46NBdg.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmw2bpacz0awcl808q4hk5xvv",
@@ -113,25 +114,21 @@
   "publishDate": "2026-11-12T14:30:00.000Z",
   "state": "QUEUE",
   "title": "Promise check: Cash back for renters",
-  "fb_candidates": [
-   [
-    14.4,
-    "L6y3kpBPJs"
-   ],
-   [
-    14.83,
-    "jiqJs30ONc"
-   ],
-   [
-    15.49,
-    "J0POb2WUDM"
-   ],
-   [
-    15.66,
-    "UxZvURXp9b"
-   ]
+  "fb_candidates": "shared upload",
+  "src_media": "cHTwClSU12",
+  "in_s": 16.9,
+  "out_s": 16.9,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3,
+   4
   ],
-  "result": "failed: no matching FB video"
+  "first_comment": "Sources:\nhttps://dub.sh/40mRbLS\nhttps://dub.sh/RrC0eZs\nhttps://dub.sh/Vaip5Yc",
+  "new_post": "cmwbn604d006wnn074wvcdivi",
+  "new_media": "https://uploads.postiz.com/eivegEN1jL.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbleya701girw081d47crsu",
@@ -149,14 +146,17 @@
   "title": "Promise check: Public option for health insurance",
   "src_media": "OTYfquC7ZH",
   "in_s": 16.9,
-  "out_s": 31.9,
-  "pictures": 5,
+  "out_s": 37.9,
+  "pictures": 6,
   "shrunk": [
    1,
    2,
-   3
+   3,
+   4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbn6dq60073nn071p2430zk",
+  "new_media": "https://uploads.postiz.com/XoML5DhSVB.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmw2bpblb0awhl808y5cxfv3c",
@@ -164,25 +164,21 @@
   "publishDate": "2026-11-12T23:30:00.000Z",
   "state": "QUEUE",
   "title": "Promise check: Public option for health insurance",
-  "fb_candidates": [
-   [
-    9.82,
-    "UyB6tp1Gzx"
-   ],
-   [
-    10.24,
-    "OTIxkXoCKr"
-   ],
-   [
-    10.67,
-    "Qkuu8BH1Fy"
-   ],
-   [
-    11.04,
-    "UxZvURXp9b"
-   ]
+  "fb_candidates": "shared upload",
+  "src_media": "OTYfquC7ZH",
+  "in_s": 16.9,
+  "out_s": 16.9,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3,
+   4
   ],
-  "result": "failed: no matching FB video"
+  "first_comment": "Sources:\nhttps://dub.sh/VQLYFSk\nhttps://dub.sh/97VgaJ7\nhttps://www.census.gov/topics/health/health-insurance.html",
+  "new_post": "cmwbn6lye005qp007b0f2hvr4",
+  "new_media": "https://uploads.postiz.com/5Cc8tZ60zD.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbiox1p0wgpn306zvbd0z4e",
@@ -192,14 +188,17 @@
   "title": "Promise check: Repeal 2025 tax breaks for the top 1%",
   "src_media": "C96fTgRNrA",
   "in_s": 16.9,
-  "out_s": 31.9,
-  "pictures": 5,
+  "out_s": 37.9,
+  "pictures": 6,
   "shrunk": [
    1,
    2,
-   3
+   3,
+   4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbn6zj40061p007yed23tg9",
+  "new_media": "https://uploads.postiz.com/OqlG8hVYzY.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmw2bpcns0acymk08twkda8bf",
@@ -207,25 +206,21 @@
   "publishDate": "2026-11-13T14:30:00.000Z",
   "state": "QUEUE",
   "title": "Promise check: Repeal 2025 tax breaks for the top 1%",
-  "fb_candidates": [
-   [
-    8.39,
-    "UyB6tp1Gzx"
-   ],
-   [
-    9.1,
-    "UxZvURXp9b"
-   ],
-   [
-    12.48,
-    "Qkuu8BH1Fy"
-   ],
-   [
-    13.72,
-    "OTIxkXoCKr"
-   ]
+  "fb_candidates": "shared upload",
+  "src_media": "C96fTgRNrA",
+  "in_s": 16.9,
+  "out_s": 16.9,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3,
+   4
   ],
-  "result": "failed: no matching FB video"
+  "first_comment": "Sources:\nhttps://dub.sh/HR8WYZx\nhttps://dub.sh/yUCD4KN\nhttps://dub.sh/TIAYXQd",
+  "new_post": "cmwbn77pn007onn071ojtghdy",
+  "new_media": "https://uploads.postiz.com/2sOpetHD9r.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbip50a0wgtn306lbh8i73w",
@@ -235,14 +230,17 @@
   "title": "Promise check: Expand veterans' telemedicine and mental health care",
   "src_media": "YLtytvEXpE",
   "in_s": 16.9,
-  "out_s": 31.9,
-  "pictures": 5,
+  "out_s": 37.9,
+  "pictures": 6,
   "shrunk": [
    1,
    2,
-   3
+   3,
+   4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbn7lan0083nn07cqgjuyo2",
+  "new_media": "https://uploads.postiz.com/ye2EdqClal.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmw2bpdu90awol808fg2eze0t",
@@ -250,25 +248,21 @@
   "publishDate": "2026-11-13T23:30:00.000Z",
   "state": "QUEUE",
   "title": "Promise check: Expand veterans' telemedicine and mental health care",
-  "fb_candidates": [
-   [
-    9.61,
-    "QEw5rw1Ctm"
-   ],
-   [
-    15.38,
-    "mE4VmFsRl7"
-   ],
-   [
-    16.67,
-    "L6y3kpBPJs"
-   ],
-   [
-    16.98,
-    "jiqJs30ONc"
-   ]
+  "fb_candidates": "shared upload",
+  "src_media": "YLtytvEXpE",
+  "in_s": 16.9,
+  "out_s": 16.9,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3,
+   4
   ],
-  "result": "failed: no matching FB video"
+  "first_comment": "Sources:\nhttps://dub.sh/OQZGqfY\nhttps://dub.sh/lDvJrkB",
+  "new_post": "cmwbn7tgi008bnn073z1cndwi",
+  "new_media": "https://uploads.postiz.com/E012SZ7AGw.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbipcwi0wgyn306kv8ujlvh",
@@ -287,7 +281,9 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbn87sp008onn07h20dxhpy",
+  "new_media": "https://uploads.postiz.com/AFfCAT8pio.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmw5qybew0xj8oj072byg1p87",
@@ -304,14 +300,18 @@
   "src_media": "vevScJgo0a",
   "in_s": 18.4,
   "out_s": 18.4,
-  "pictures": 4,
+  "pictures": 5,
   "shrunk": [
    0,
    1,
    2,
-   3
+   3,
+   4
   ],
-  "result": "dry run ok"
+  "first_comment": "Sources:\nhttps://dub.sh/EMIRsQ1\nhttps://dub.sh/DiJfho3\nhttps://dub.sh/apglGtq",
+  "new_post": "cmwbn8gsn008snn07zaf59hs9",
+  "new_media": "https://uploads.postiz.com/VMIvlW9W0w.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbipkdu0xxhpq07k7yx9kzj",
@@ -330,7 +330,9 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbn8vbe0092nn0797rdvujf",
+  "new_media": "https://uploads.postiz.com/AwasRVccjS.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmw5qyd360xjaoj07czlf5e8v",
@@ -344,7 +346,7 @@
     "XxehpxjXm5"
    ],
    [
-    10.64,
+    10.12,
     "vevScJgo0a"
    ]
   ],
@@ -359,7 +361,10 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "first_comment": "Sources:\nhttps://dub.sh/Ml0ZTZw\nhttps://dub.sh/iaS2Bdq\nhttps://dub.sh/xp8aKYc",
+  "new_post": "cmwbn94eb0071p007usnp188w",
+  "new_media": "https://uploads.postiz.com/TXopNmPubj.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbiptad0whan306rq9pidyp",
@@ -378,7 +383,9 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbn9iyi007ep007h0d96pm7",
+  "new_media": "https://uploads.postiz.com/1UkpoWV84i.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmw76fb800b6sk707m9y7u95r",
@@ -403,7 +410,10 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "first_comment": "Sources:\nhttps://dub.sh/nGFMa8F\nhttps://dub.sh/tDpcl0r\nhttps://dub.sh/GP3W5R8",
+  "new_post": "cmwbn9s86007np0079cphx04f",
+  "new_media": "https://uploads.postiz.com/hjbGhEWFJG.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbiq1vu0xxvpq07ilo8523y",
@@ -422,7 +432,9 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbna6vw0083p0073eiravoe",
+  "new_media": "https://uploads.postiz.com/duD4TRglcV.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmw76fda70b6vk707w914cn01",
@@ -436,7 +448,7 @@
     "ohyHQ3paGJ"
    ],
    [
-    23.67,
+    22.79,
     "5gIDAYEXbD"
    ]
   ],
@@ -451,7 +463,10 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "first_comment": "Sources:\nhttps://dub.sh/FJbO0UV\nhttps://dub.sh/clQXfR8\nhttps://dub.sh/s2k4SXz",
+  "new_post": "cmwbnag6e008ap00707m2grbq",
+  "new_media": "https://uploads.postiz.com/Dep7CSsDWF.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbiqa1r0whkn306qns904cx",
@@ -470,7 +485,9 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbnaur3008rp007r7uty0uw",
+  "new_media": "https://uploads.postiz.com/1DdroHXD5N.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmw8lu3oi0huqof06klfrlyav",
@@ -487,14 +504,18 @@
   "src_media": "idPBXO9tbM",
   "in_s": 18.4,
   "out_s": 18.4,
-  "pictures": 4,
+  "pictures": 5,
   "shrunk": [
    0,
    1,
    2,
-   3
+   3,
+   4
   ],
-  "result": "dry run ok"
+  "first_comment": "Sources:\nhttps://dub.sh/VodEp9L\nhttps://dub.sh/EN0J43O\nhttps://dub.sh/bjcy95f",
+  "new_post": "cmwbnb3ou008zp0079f74x2up",
+  "new_media": "https://uploads.postiz.com/CFbZOSAhOj.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbiqi5s0xy7pq07wiadyv5i",
@@ -513,7 +534,9 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbnbi2f009bp007xbv4112l",
+  "new_media": "https://uploads.postiz.com/fMD6lWm0tJ.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmw8lu5cv0h50pm079eij24wv",
@@ -527,7 +550,7 @@
     "FupUzHTKEa"
    ],
    [
-    7.87,
+    7.65,
     "idPBXO9tbM"
    ]
   ],
@@ -542,7 +565,10 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "first_comment": "Sources:\nhttps://dub.sh/eobh3pF\nhttps://dub.sh/CJCtpQV\nhttps://dub.sh/1mU1BHN",
+  "new_post": "cmwbnbqyb00alnn07s5c230jg",
+  "new_media": "https://uploads.postiz.com/eVm57DOOcm.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbiqqli0xybpq07t61spn1j",
@@ -560,7 +586,9 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbnc5bk00apnn0730x2q51g",
+  "new_media": "https://uploads.postiz.com/Flxk5nvCpP.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwa1liwb0w0hp60736g0qemv",
@@ -584,7 +612,10 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "first_comment": "Sources:\nhttps://dub.sh/7Q9GHEX\nhttps://dub.sh/48udQA5\nhttps://dub.sh/gvrmnfX",
+  "new_post": "cmwbnceas00aqnn07061g8j16",
+  "new_media": "https://uploads.postiz.com/gFAUiyUtH3.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbiqysq0wi3n306roh1nrif",
@@ -603,7 +634,9 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbncsvw009wp007zqz3g9gh",
+  "new_media": "https://uploads.postiz.com/hoSskU5GGG.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwa1ljar0w0kp607fr83jj8q",
@@ -617,7 +650,7 @@
     "dx2f90NPW2"
    ],
    [
-    20.52,
+    19.61,
     "pN4pu6ESZW"
    ]
   ],
@@ -632,7 +665,10 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "first_comment": "Sources:\nhttps://dub.sh/MNdeq3Q\nhttps://dub.sh/SG6Kbl7\nhttps://dub.sh/uTuoXRX",
+  "new_post": "cmwbnd23o009zp007u34an3qm",
+  "new_media": "https://uploads.postiz.com/mH7kNqrUdd.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbir6id0xyjpq0776mgsfzo",
@@ -650,7 +686,9 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbndgi700anp0072lc72qb7",
+  "new_media": "https://uploads.postiz.com/346cnH2ncb.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbgq6pr0wgvpq07jxfn9jyx",
@@ -661,25 +699,23 @@
   "fb_candidates": [
    [
     0.0,
-    "5JV6Wu8wZu"
-   ],
-   [
-    0.0,
     "GnaukXPiY1"
    ]
   ],
-  "src_media": "5JV6Wu8wZu",
-  "in_s": 21.0,
-  "out_s": 21.0,
-  "pictures": 6,
+  "src_media": "GnaukXPiY1",
+  "in_s": 18.4,
+  "out_s": 18.4,
+  "pictures": 5,
   "shrunk": [
    1,
    2,
    3,
-   4,
-   5
+   4
   ],
-  "result": "dry run ok"
+  "first_comment": "Sources:\nhttps://dub.sh/X9hmaDK\nhttps://dub.sh/mku5Hoz\nhttps://dub.sh/sNbnYp3",
+  "new_post": "cmwbndpt400axp007ntf0q51x",
+  "new_media": "https://uploads.postiz.com/GzHGzzzf0K.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbirees0wicn3067pll2dzm",
@@ -697,7 +733,9 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "new_post": "cmwbne4o800bep007nixdrw2x",
+  "new_media": "https://uploads.postiz.com/qZ0Ao5W1wI.mp4",
+  "result": "replaced"
  },
  {
   "post": "cmwbgqivc0wh6pq071bwmexw8",
@@ -711,11 +749,7 @@
     "UHCLFQPk6W"
    ],
    [
-    16.92,
-    "5JV6Wu8wZu"
-   ],
-   [
-    16.92,
+    16.46,
     "GnaukXPiY1"
    ]
   ],
@@ -729,6 +763,9 @@
    3,
    4
   ],
-  "result": "dry run ok"
+  "first_comment": "Sources:\nhttps://dub.sh/n1Srk5n\nhttps://dub.sh/nKDrx39\nhttps://dub.sh/NkEP6M7",
+  "new_post": "cmwbnedx500bjp007iqct9v6g",
+  "new_media": "https://uploads.postiz.com/xZnLyaDPIU.mp4",
+  "result": "replaced"
  }
 ]
