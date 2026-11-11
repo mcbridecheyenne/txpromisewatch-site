@@ -30,6 +30,13 @@ jobs:
           postiz posts:list --startDate "$start" --endDate "$end" > raw.txt
           sed -n '/^[[{]/,$p' raw.txt > plist.json
           python3 scripts/retime_queue.py plist.json scripts/retime_plan.json out || echo "SOME FAILED"
+          python3 -c "
+          import json; d=json.load(open('plist.json')); p=d['posts'] if isinstance(d,dict) else d
+          for x in sorted(p,key=lambda x:x['publishDate']):
+              if 'tiktok' not in x['integration']['providerIdentifier']: continue
+              s=json.loads(x['settings']) if isinstance(x.get('settings'),str) else (x.get('settings') or {})
+              print('TT',x['id'],x['state'],x['publishDate'],(s.get('music') or {}).get('title'),s.get('title','')[:50])
+          "
           mkdir -p retime-report && cp out/report.json out/*.jpg retime-report/
           git config user.name "github-actions"; git config user.email "github-actions@users.noreply.github.com"
           git add retime-report && git commit -qm "Retime report" && git pull -q --rebase && git push

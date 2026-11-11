@@ -1,22 +1,6 @@
 {
-  "apply": true,
+  "apply": false,
   "extra_seconds": 3,
-  "posts": {
-    "cmw2bp6jt0aw4l8085fc75n9x": "jKWgRTsSrp",
-    "cmw2bp99u0aw9l808mxqvl8nu": "28OOyKJTAW",
-    "cmw2bpalq0acwmk08ccz6sj40": "cHTwClSU12",
-    "cmw2bpbrt0awjl8088vglzt47": "OTYfquC7ZH",
-    "cmw2bpcxd0awll80896ppotim": "C96fTgRNrA",
-    "cmw2bpe1v0awql808vsdyfhnd": "YLtytvEXpE",
-    "cmw5qyblb0wwmmm08n80matsb": "z4LSLgITsM",
-    "cmw5qyd9k0xjcoj073jzie11u": "gjfS9nCWzB",
-    "cmw76fbhe0b6uk707jh0bfs1d": "1hg0Ys23XW",
-    "cmw76fdjj0b6sp308wh7s4ste": "UdDQ3nQTRL",
-    "cmw8lu3ww0h4zpm078c2irax7": "ashzkVZgdl",
-    "cmw8lu5jx0husof06bdvuug24": "v4cfNbnT8C",
-    "cmwa1lj380w0jp607zxmvudrg": "0Dmq9UbWsP",
-    "cmwa1ljj40v9fnv07vd8caw5u": "NlBURJ3TDa",
-    "cmwbgqhhq0wh5pq07g2d2d2yd": "cdYNemg11u",
-    "cmwbgqj1x0uz0n306zrs50uv5": "g5Y2IcEnbu"
-  }
+  "posts": {},
+  "note": "done 2026-11-11: all 16 replaced; verify only"
 }
