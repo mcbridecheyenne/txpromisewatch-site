@@ -1,0 +1,50 @@
+[
+ {
+  "id": "cmwbi5u5z0xgfpq07ihfw4o0t",
+  "platform": "x",
+  "state": "QUEUE",
+  "publishDate": "2026-11-11T17:00:00.000Z",
+  "settings": {
+   "post_type": "post",
+   "who_can_reply_post": "everyone",
+   "__type": "x"
+  }
+ },
+ {
+  "id": "cmwbi5uje0vywn306o1driyjg",
+  "platform": "tiktok-business",
+  "state": "QUEUE",
+  "publishDate": "2026-11-11T17:00:00.000Z",
+  "settings": {
+   "title": "Texas Democrats filed these bills. None of them are law yet.",
+   "privacy_level": "PUBLIC_TO_EVERYONE",
+   "duet": false,
+   "stitch": false,
+   "comment": true,
+   "autoAddMusic": "no",
+   "brand_content_toggle": false,
+   "brand_organic_toggle": false,
+   "video_made_with_ai": false,
+   "content_posting_method": "DIRECT_POST",
+   "music": {
+    "id": "7622564116947060752",
+    "title": "Hidden Truth Revealed",
+    "artist": "Adauto Assis",
+    "audio_volume": 60,
+    "video_volume": 50
+   },
+   "__type": "tiktok-business"
+  }
+ },
+ {
+  "id": "cmwbi5tyx0vytn306kipn5gnb",
+  "platform": "facebook",
+  "state": "QUEUE",
+  "publishDate": "2026-11-11T17:00:00.000Z",
+  "settings": {
+   "post_type": "post",
+   "title": "Texas Democrats filed these bills. None of them are law yet.",
+   "__type": "facebook"
+  }
+ }
+]

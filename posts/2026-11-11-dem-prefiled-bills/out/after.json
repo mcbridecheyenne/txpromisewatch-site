@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": "cmwbi5u5z0xgfpq07ihfw4o0t",
+      "content": "Filed isn't passed. Texas Democrats pre-filed 2027 bills to expand Medicaid, set a $15 minimum wage, legalize marijuana and raise the buying age for some semi-auto rifles to 21. None is law yet: each needs the House, the GOP-held Senate and the governor. #txlege",
+      "publishDate": "2026-11-11T17:00:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "40ca2aa2-7fd7-4db4-8c57-72018cae4be2",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"who_can_reply_post\":\"everyone\",\"__type\":\"x\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1pgg8k0drqla078ivel5jr",
+        "providerIdentifier": "x",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/D9frMDkodN.jpg"
+      }
+    },
+    {
+      "id": "cmwbi5uje0vywn306o1driyjg",
+      "content": "Filed isn't passed. Texas Democrats pre-filed bills for the 2027 session to expand Medicaid, raise the minimum wage to $15 an hour, legalize and tax marijuana, and raise the minimum age to buy certain semi-automatic rifles to 21. These are proposals, not laws. Each one has to pass the Texas House and the Republican-held Senate and get past the governor. Republicans filed their own bills too, including property tax cuts. Sources: Texas Tribune and Marijuana Moment.\n\nMore on Facebook (Texas Promise Watch), Instagram (@texas_promise_watch), X (@TXPromiseWatch) and TXPromiseWatch.com\n#TexasPromiseWatch #txlege #texaspolitics #texas",
+      "publishDate": "2026-11-11T17:00:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "69dd06dc-c558-4a48-9dee-764ade0dbf18",
+      "creationMethod": "CLI",
+      "settings": "{\"title\":\"Texas Democrats filed these bills. None of them are law yet.\",\"privacy_level\":\"PUBLIC_TO_EVERYONE\",\"duet\":false,\"stitch\":false,\"comment\":true,\"autoAddMusic\":\"no\",\"brand_content_toggle\":false,\"brand_organic_toggle\":false,\"video_made_with_ai\":false,\"content_posting_method\":\"DIRECT_POST\",\"music\":{\"id\":\"7622564116947060752\",\"title\":\"Hidden Truth Revealed\",\"artist\":\"Adauto Assis\",\"audio_volume\":60,\"video_volume\":50},\"__type\":\"tiktok-business\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw21kbr201nrl808vqs2hovq",
+        "providerIdentifier": "tiktok-business",
+        "name": "TXPromiseWatch",
+        "picture": "https://uploads.postiz.com/QCnBtZ6Ray.jpg"
+      }
+    },
+    {
+      "id": "cmwbi5tyx0vytn306kipn5gnb",
+      "content": "Filed isn't passed: what Texas Democrats proposed this week\n\nBill filing for the 2027 Texas legislative session opened Nov. 9, and Democrats pre-filed bills on several big issues:\n\n• Expand Medicaid (House bill by Rep. John Bucy, Senate bill by Sen. Judith Zaffirini)\n• Raise the state minimum wage to $15 an hour (HB 110, HB 132)\n• Legalize, tax and regulate marijuana (HB 362, HB 369)\n• Raise the minimum age to buy certain semi-automatic rifles to 21 (HB 173)\n\nThese are proposals, not laws. A bill has to pass the Texas House and Senate and get past the governor. Democrats now hold the House; Republicans still hold the Senate, where the Texas Tribune expects many of these ideas to face heavy resistance. Republicans filed their own bills too, including ones to cut or end property taxes.\n\nYou may have seen \"20 gun bills.\" So far we could confirm the rifle-age bill only.\n\nWhich should we track?\n\nSources: Texas Tribune, Marijuana Moment (links in the first comment)\n#TexasPromiseWatch #txlege",
+      "publishDate": "2026-11-11T17:00:00.000Z",
+      "releaseURL": null,
+      "releaseId": null,
+      "state": "QUEUE",
+      "error": null,
+      "intervalInDays": null,
+      "group": "fa23bc3f-7c5b-4b32-8cb2-49177ab98abf",
+      "creationMethod": "CLI",
+      "settings": "{\"post_type\":\"post\",\"title\":\"Texas Democrats filed these bills. None of them are law yet.\",\"__type\":\"facebook\"}",
+      "tags": [],
+      "integration": {
+        "id": "cmw1op4mp0cztla07zr8ski3z",
+        "providerIdentifier": "facebook",
+        "name": "Texas Promise Watch",
+        "picture": "https://uploads.postiz.com/YiNzNdbAVU.jpg"
+      }
+    }
+  ]
+}
