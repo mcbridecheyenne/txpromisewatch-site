@@ -1,0 +1,734 @@
+[
+ {
+  "post": "cmwbleyrf01glrw08ine5ro1y",
+  "publishDate": "2026-11-12T17:00:00.000Z",
+  "result": "skipped: TikTok post not in plan"
+ },
+ {
+  "post": "cmwbio7nn0xwmpq07gmly67u8",
+  "kind": "tiktok",
+  "publishDate": "2026-11-11T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: End corporate tax breaks to lower property taxes",
+  "src_media": "jKWgRTsSrp",
+  "in_s": 16.9,
+  "out_s": 31.9,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmw2bp6c90acmmk08hm9r3a44",
+  "kind": "facebook",
+  "publishDate": "2026-11-11T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: End corporate tax breaks to lower property taxes",
+  "fb_candidates": [
+   [
+    7.4,
+    "J0POb2WUDM"
+   ],
+   [
+    8.64,
+    "3XMJG0VG3g"
+   ],
+   [
+    14.08,
+    "UxZvURXp9b"
+   ],
+   [
+    14.19,
+    "UyB6tp1Gzx"
+   ]
+  ],
+  "result": "failed: no matching FB video"
+ },
+ {
+  "post": "cmwbioedh0wggn306yn6r9wfg",
+  "kind": "tiktok",
+  "publishDate": "2026-11-11T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: More than double the $7.25 federal minimum wage",
+  "src_media": "28OOyKJTAW",
+  "in_s": 16.9,
+  "out_s": 31.9,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmw2bp92n0acrmk08mr2cdt4n",
+  "kind": "facebook",
+  "publishDate": "2026-11-11T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: More than double the $7.25 federal minimum wage",
+  "fb_candidates": [
+   [
+    8.5,
+    "J0POb2WUDM"
+   ],
+   [
+    9.58,
+    "3XMJG0VG3g"
+   ],
+   [
+    13.09,
+    "L6y3kpBPJs"
+   ],
+   [
+    13.68,
+    "UyB6tp1Gzx"
+   ]
+  ],
+  "result": "failed: no matching FB video"
+ },
+ {
+  "post": "cmwbiokit0xwtpq07h0gw1hzr",
+  "kind": "tiktok",
+  "publishDate": "2026-11-12T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Cash back for renters",
+  "src_media": "cHTwClSU12",
+  "in_s": 16.9,
+  "out_s": 31.9,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmw2bpacz0awcl808q4hk5xvv",
+  "kind": "facebook",
+  "publishDate": "2026-11-12T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Cash back for renters",
+  "fb_candidates": [
+   [
+    14.4,
+    "L6y3kpBPJs"
+   ],
+   [
+    14.83,
+    "jiqJs30ONc"
+   ],
+   [
+    15.49,
+    "J0POb2WUDM"
+   ],
+   [
+    15.66,
+    "UxZvURXp9b"
+   ]
+  ],
+  "result": "failed: no matching FB video"
+ },
+ {
+  "post": "cmwbleya701girw081d47crsu",
+  "kind": "facebook",
+  "publishDate": "2026-11-12T17:00:00.000Z",
+  "state": "QUEUE",
+  "title": "Hinojosa promised to freeze your electric rate. Can she?",
+  "result": "skipped: no paired TikTok in plan"
+ },
+ {
+  "post": "cmwbioqnx0wgnn306n573u6vo",
+  "kind": "tiktok",
+  "publishDate": "2026-11-12T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Public option for health insurance",
+  "src_media": "OTYfquC7ZH",
+  "in_s": 16.9,
+  "out_s": 31.9,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmw2bpblb0awhl808y5cxfv3c",
+  "kind": "facebook",
+  "publishDate": "2026-11-12T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Public option for health insurance",
+  "fb_candidates": [
+   [
+    9.82,
+    "UyB6tp1Gzx"
+   ],
+   [
+    10.24,
+    "OTIxkXoCKr"
+   ],
+   [
+    10.67,
+    "Qkuu8BH1Fy"
+   ],
+   [
+    11.04,
+    "UxZvURXp9b"
+   ]
+  ],
+  "result": "failed: no matching FB video"
+ },
+ {
+  "post": "cmwbiox1p0wgpn306zvbd0z4e",
+  "kind": "tiktok",
+  "publishDate": "2026-11-13T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Repeal 2025 tax breaks for the top 1%",
+  "src_media": "C96fTgRNrA",
+  "in_s": 16.9,
+  "out_s": 31.9,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmw2bpcns0acymk08twkda8bf",
+  "kind": "facebook",
+  "publishDate": "2026-11-13T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Repeal 2025 tax breaks for the top 1%",
+  "fb_candidates": [
+   [
+    8.39,
+    "UyB6tp1Gzx"
+   ],
+   [
+    9.1,
+    "UxZvURXp9b"
+   ],
+   [
+    12.48,
+    "Qkuu8BH1Fy"
+   ],
+   [
+    13.72,
+    "OTIxkXoCKr"
+   ]
+  ],
+  "result": "failed: no matching FB video"
+ },
+ {
+  "post": "cmwbip50a0wgtn306lbh8i73w",
+  "kind": "tiktok",
+  "publishDate": "2026-11-13T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Expand veterans' telemedicine and mental health care",
+  "src_media": "YLtytvEXpE",
+  "in_s": 16.9,
+  "out_s": 31.9,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmw2bpdu90awol808fg2eze0t",
+  "kind": "facebook",
+  "publishDate": "2026-11-13T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Expand veterans' telemedicine and mental health care",
+  "fb_candidates": [
+   [
+    9.61,
+    "QEw5rw1Ctm"
+   ],
+   [
+    15.38,
+    "mE4VmFsRl7"
+   ],
+   [
+    16.67,
+    "L6y3kpBPJs"
+   ],
+   [
+    16.98,
+    "jiqJs30ONc"
+   ]
+  ],
+  "result": "failed: no matching FB video"
+ },
+ {
+  "post": "cmwbipcwi0wgyn306kv8ujlvh",
+  "kind": "tiktok",
+  "publishDate": "2026-11-14T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Overhaul the child support division to cut delays",
+  "src_media": "z4LSLgITsM",
+  "in_s": 21.0,
+  "out_s": 39.0,
+  "pictures": 6,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmw5qybew0xj8oj072byg1p87",
+  "kind": "facebook",
+  "publishDate": "2026-11-14T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Overhaul the child support division to cut delays",
+  "fb_candidates": [
+   [
+    0.0,
+    "vevScJgo0a"
+   ]
+  ],
+  "src_media": "vevScJgo0a",
+  "in_s": 18.4,
+  "out_s": 18.4,
+  "pictures": 4,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmwbipkdu0xxhpq07k7yx9kzj",
+  "kind": "tiktok",
+  "publishDate": "2026-11-14T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: No state budget that funds private school vouchers",
+  "src_media": "gjfS9nCWzB",
+  "in_s": 21.0,
+  "out_s": 39.0,
+  "pictures": 6,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmw5qyd360xjaoj07czlf5e8v",
+  "kind": "facebook",
+  "publishDate": "2026-11-14T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: No state budget that funds private school vouchers",
+  "fb_candidates": [
+   [
+    0.0,
+    "XxehpxjXm5"
+   ],
+   [
+    10.64,
+    "vevScJgo0a"
+   ]
+  ],
+  "src_media": "XxehpxjXm5",
+  "in_s": 18.4,
+  "out_s": 18.4,
+  "pictures": 5,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmwbiptad0whan306rq9pidyp",
+  "kind": "tiktok",
+  "publishDate": "2026-11-15T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Crack down on junk fees and price manipulation",
+  "src_media": "1hg0Ys23XW",
+  "in_s": 21.0,
+  "out_s": 39.0,
+  "pictures": 6,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmw76fb800b6sk707m9y7u95r",
+  "kind": "facebook",
+  "publishDate": "2026-11-15T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Crack down on junk fees and price manipulation",
+  "fb_candidates": [
+   [
+    0.0,
+    "5gIDAYEXbD"
+   ]
+  ],
+  "src_media": "5gIDAYEXbD",
+  "in_s": 18.4,
+  "out_s": 18.4,
+  "pictures": 5,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmwbiq1vu0xxvpq07ilo8523y",
+  "kind": "tiktok",
+  "publishDate": "2026-11-15T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Strictly enforce winterization rules for natural gas facilities",
+  "src_media": "UdDQ3nQTRL",
+  "in_s": 21.0,
+  "out_s": 39.0,
+  "pictures": 6,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmw76fda70b6vk707w914cn01",
+  "kind": "facebook",
+  "publishDate": "2026-11-15T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Strictly enforce winterization rules for natural gas facilities",
+  "fb_candidates": [
+   [
+    0.0,
+    "ohyHQ3paGJ"
+   ],
+   [
+    23.67,
+    "5gIDAYEXbD"
+   ]
+  ],
+  "src_media": "ohyHQ3paGJ",
+  "in_s": 18.4,
+  "out_s": 18.4,
+  "pictures": 5,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmwbiqa1r0whkn306qns904cx",
+  "kind": "tiktok",
+  "publishDate": "2026-11-16T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Audit the state's broadband funding deals",
+  "src_media": "ashzkVZgdl",
+  "in_s": 21.0,
+  "out_s": 39.0,
+  "pictures": 6,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmw8lu3oi0huqof06klfrlyav",
+  "kind": "facebook",
+  "publishDate": "2026-11-16T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Audit the state's broadband funding deals",
+  "fb_candidates": [
+   [
+    0.0,
+    "idPBXO9tbM"
+   ]
+  ],
+  "src_media": "idPBXO9tbM",
+  "in_s": 18.4,
+  "out_s": 18.4,
+  "pictures": 4,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmwbiqi5s0xy7pq07wiadyv5i",
+  "kind": "tiktok",
+  "publishDate": "2026-11-16T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Regulate THC instead of banning it",
+  "src_media": "v4cfNbnT8C",
+  "in_s": 21.0,
+  "out_s": 39.0,
+  "pictures": 6,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmw8lu5cv0h50pm079eij24wv",
+  "kind": "facebook",
+  "publishDate": "2026-11-16T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Regulate THC instead of banning it",
+  "fb_candidates": [
+   [
+    0.0,
+    "FupUzHTKEa"
+   ],
+   [
+    7.87,
+    "idPBXO9tbM"
+   ]
+  ],
+  "src_media": "FupUzHTKEa",
+  "in_s": 18.4,
+  "out_s": 18.4,
+  "pictures": 5,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmwbiqqli0xybpq07t61spn1j",
+  "kind": "tiktok",
+  "publishDate": "2026-11-17T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Audit the vendors behind Texas's stalled voter registrations",
+  "src_media": "0Dmq9UbWsP",
+  "in_s": 21.0,
+  "out_s": 39.0,
+  "pictures": 6,
+  "shrunk": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmwa1liwb0w0hp60736g0qemv",
+  "kind": "facebook",
+  "publishDate": "2026-11-17T14:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Audit the vendors behind Texas's stalled voter registrations",
+  "fb_candidates": [
+   [
+    0.0,
+    "pN4pu6ESZW"
+   ]
+  ],
+  "src_media": "pN4pu6ESZW",
+  "in_s": 18.4,
+  "out_s": 18.4,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmwbiqysq0wi3n306roh1nrif",
+  "kind": "tiktok",
+  "publishDate": "2026-11-17T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Make industry pay more to plug abandoned wells",
+  "src_media": "NlBURJ3TDa",
+  "in_s": 21.0,
+  "out_s": 39.0,
+  "pictures": 6,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmwa1ljar0w0kp607fr83jj8q",
+  "kind": "facebook",
+  "publishDate": "2026-11-17T23:30:00.000Z",
+  "state": "QUEUE",
+  "title": "Promise check: Make industry pay more to plug abandoned wells",
+  "fb_candidates": [
+   [
+    0.0,
+    "dx2f90NPW2"
+   ],
+   [
+    20.52,
+    "pN4pu6ESZW"
+   ]
+  ],
+  "src_media": "dx2f90NPW2",
+  "in_s": 18.4,
+  "out_s": 18.4,
+  "pictures": 5,
+  "shrunk": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmwbir6id0xyjpq0776mgsfzo",
+  "kind": "tiktok",
+  "publishDate": "2026-11-18T14:30:00.000Z",
+  "state": "DRAFT",
+  "title": "Promise check: Use the AG's office to rein in harmful AI",
+  "src_media": "cdYNemg11u",
+  "in_s": 21.0,
+  "out_s": 39.0,
+  "pictures": 6,
+  "shrunk": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmwbgq6pr0wgvpq07jxfn9jyx",
+  "kind": "facebook",
+  "publishDate": "2026-11-18T14:30:00.000Z",
+  "state": "DRAFT",
+  "title": "Promise check: Use the AG's office to rein in harmful AI",
+  "fb_candidates": [
+   [
+    0.0,
+    "5JV6Wu8wZu"
+   ],
+   [
+    0.0,
+    "GnaukXPiY1"
+   ]
+  ],
+  "src_media": "5JV6Wu8wZu",
+  "in_s": 21.0,
+  "out_s": 21.0,
+  "pictures": 6,
+  "shrunk": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmwbirees0wicn3067pll2dzm",
+  "kind": "tiktok",
+  "publishDate": "2026-11-18T23:30:00.000Z",
+  "state": "DRAFT",
+  "title": "Promise check: Repeal the state abortion ban",
+  "src_media": "g5Y2IcEnbu",
+  "in_s": 21.0,
+  "out_s": 39.0,
+  "pictures": 6,
+  "shrunk": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ },
+ {
+  "post": "cmwbgqivc0wh6pq071bwmexw8",
+  "kind": "facebook",
+  "publishDate": "2026-11-18T23:30:00.000Z",
+  "state": "DRAFT",
+  "title": "Promise check: Repeal the state abortion ban",
+  "fb_candidates": [
+   [
+    0.0,
+    "UHCLFQPk6W"
+   ],
+   [
+    16.92,
+    "5JV6Wu8wZu"
+   ],
+   [
+    16.92,
+    "GnaukXPiY1"
+   ]
+  ],
+  "src_media": "UHCLFQPk6W",
+  "in_s": 18.4,
+  "out_s": 18.4,
+  "pictures": 5,
+  "shrunk": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "result": "dry run ok"
+ }
+]
