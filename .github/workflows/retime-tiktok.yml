@@ -1,0 +1,41 @@
+name: Retime TikTok reels
+on:
+  push:
+    branches: [retime-tiktok]
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "20" }
+      - run: npm install -g postiz@2.0.27 --silent
+      - name: List TikTok posts
+        env:
+          POSTIZ_API_KEY: ${{ secrets.POSTIZ_API_KEY }}
+        run: |
+          start=$(date -u -d '-1 day' +%Y-%m-%dT%H:%M:%SZ); end=$(date -u -d '+30 days' +%Y-%m-%dT%H:%M:%SZ)
+          postiz posts:list --startDate "$start" --endDate "$end" > raw.txt
+          sed -n '/^[[{]/,$p' raw.txt > plist.json
+          python3 - <<'P'
+          import json
+          d=json.load(open('plist.json')); p=d['posts'] if isinstance(d,dict) else d
+          tt=[x for x in p if 'tiktok' in x['integration']['providerIdentifier'] and x.get('state') in ('DRAFT','QUEUE')]
+          json.dump(tt,open('tiktok.json','w'),indent=1)
+          print(len(tt))
+          P
+          sudo apt-get -qq install -y ffmpeg >/dev/null
+          python3 - <<'P'
+          import json,re,subprocess
+          for x in json.load(open('tiktok.json')):
+              imgs=x.get('image'); imgs=json.loads(imgs) if isinstance(imgs,str) else imgs
+              for m in imgs or []:
+                  u=m.get('path')
+                  if u and u.endswith('.mp4'):
+                      d=subprocess.run(['ffprobe','-v','0','-show_entries','format=duration','-of','csv=p=0',u],capture_output=True,text=True).stdout.strip()
+                      print(x['id'],x['state'],x['publishDate'],d,u)
+          P
+      - uses: actions/upload-artifact@v4
+        with: { name: tiktok, path: tiktok.json }
